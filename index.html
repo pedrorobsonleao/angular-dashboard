@@ -30,7 +30,7 @@
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="http://bouil.github.io/angular-google-chart/ng-google-chart.js"></script>
 
-    <script type="text/javascript" src="/static/js/Data.js"></script>
+    <script type="text/javascript" src="./js/Data.js"></script>
 </head>
 <body>
 <div ng-controller="ListController">
@@ -77,7 +77,7 @@
         <tr ng-repeat="f in list | filter: txtFilter as filtered" pog="{{refreshChart($index + 1)}}">
             <td ng-repeat="c in f"  ng-if="$index != 4">
                 <div ng-switch on="$index">
-                    <div ng-switch-when="0"><a href="http://tms-jira.cardifnet.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
+                    <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
                     <div ng-switch-when="7"><div ng-repeat="v in c">{{v}}</div></div>
                     <div ng-switch-default >{{c}}</div>
                 </div>
@@ -88,6 +88,6 @@
     <script>
     </script>
 </div>
-<script type="text/javascript" src="/static/js/app-report.js"></script>
+<script type="text/javascript" src="./js/app-report.js"></script>
 </body>
 </html>
