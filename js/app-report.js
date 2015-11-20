@@ -10,7 +10,7 @@
 
         $scope.retrieveData = function(callback) {
             //$http.get('/report/services/search/Maintenance/2.10.0.0').success(function(data) {
-            $http.get('/static/2.10.0.0.json').success(function(data) {
+            $http.get('./2.10.0.0.json').success(function(data) {
                 $scope.list = data;
                 callback();
             });
