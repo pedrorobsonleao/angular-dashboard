@@ -1,59 +1,22 @@
 
     var app =  angular.module('report', ['googlechart']);
 
-    app.controller('ListController', function($scope, $http) {
+    app.controller('ListController', function($scope, $http, googleChartApiPromise) {
         var dt = new Data();
 
+        $scope.txtFilter = '';
         $scope.list = [];
         $scope.header = dt.header();
 
-        $scope.update = function() {
-            $http.get('./2.10.0.0.json').success(function(data) {
+        $scope.retrieveData = function(callback) {
+            //$http.get('/report/services/search/Maintenance/2.10.0.0').success(function(data) {
+            $http.get('/static/2.10.0.0.json').success(function(data) {
                 $scope.list = data;
-
-                $scope.draw();
+                callback();
             });
         };
 
-        $scope.update();
-
-        $scope.refreshChart = function(index) {
-            if ($scope.filtered.length == index ) {
-//                console.log('index:' + index + ' filtered:' + $scope.filtered.length + ' data:' + $scope.list.length);
-                var d = [];
-                d = d.concat([$scope.header],$scope.filtered);
-                $scope.refresh(d);
-//                console.log('call refresh filter ' + d );
-            }
-        };
-
-        $scope.refresh = function(data = null) {
-
-            if( ! data ) {
-                data = this.data;
-            }
-
-           // if(data.length == 1) return;
-
-            var dt = new Data();
-
-            dt.data = data;
-
-            $scope.chartCode.data =  dt.count(['solution'],dt.code());
-
-            $scope.chartOthers.data = dt.count(['solution'],dt.others());
-
-            $scope.chartStock.data = dt.stock();
-            $scope.chartCountry.data = dt.country();
-            $scope.chartStockDown.data = dt.stockdown();
-            $scope.chartOpenPerDay.data = dt.openPerDay();
-
-            dt.data = dt.apps(data);
-            $scope.chartApps.data = dt.count(['application']);
-            // console.log(data);
-        }
-
-        $scope.draw = function() {
+        $scope.setupCharts = function() {
 
             $scope.chartApps = {};
             $scope.chartCode = {};
@@ -121,7 +84,50 @@
             $scope.chart_stock_close = $scope.chartStock;
             $scope.chart_opened = $scope.chartOpenPerDay;
             $scope.chart_stockdown = $scope.chartStockDown;
-
-//            $scope.refresh($scope.list);
         }
+
+        $scope.refreshChartData = function() {
+
+            var sourceData;
+            if($scope.txtFilter && $scope.txtFilter.length>0 && $scope.filtered) {
+                sourceData = $scope.filtered;
+            } else {
+                sourceData = $scope.list;
+            }
+            
+            var data = [];
+            data = data.concat([$scope.header],sourceData);
+
+            dt.data = data;
+
+            $scope.chartCode.data =  dt.count(['solution'],dt.code());
+
+            $scope.chartOthers.data = dt.count(['solution'],dt.others());
+
+            $scope.chartStock.data = dt.stock();
+            $scope.chartCountry.data = dt.country();
+            $scope.chartStockDown.data = dt.stockdown();
+            $scope.chartOpenPerDay.data = dt.openPerDay();
+
+            dt.data = dt.apps(data);
+            $scope.chartApps.data = dt.count(['application']);
+        }
+
+        googleChartApiPromise.then(function() {
+            
+            console.log("OK!!! GoogleChartApi is ready!!!");
+            
+            $scope.retrieveData(function () {
+                $scope.setupCharts();
+                $scope.refreshChartData();
+                $scope.$watch('txtFilter',function (newValue, oldValue){
+                    if ( newValue !== oldValue ) {
+                        $scope.refreshChartData();
+                    }
+                });
+            });
+            
+        });
+
+
     });
