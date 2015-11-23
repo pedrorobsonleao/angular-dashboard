@@ -1,1 +1,3678 @@
-[["LAPSIS-1383", "Closed", "2015-04-23T21:36:23.000-0300", "2015-09-29T18:15:58.000-0300", "Ao utilizar uma cobertura de morte o tratamento na carta de morte para documentos pendentes deve ser com Familiares", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "Claim"], ["LAPSIS-1385", "Closed", "2015-04-24T12:47:12.000-0300", "2015-09-28T11:54:24.000-0300", "MX - LAASDK-1891 :MEXICO >> TEST >> SOMA DE VALORES UDI\u00b4S PRODUTO EWAutoNBB", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.168"], "None", "PIMS Insurance"], ["LAPSIS-1469", "Closed", "2015-05-04T18:24:01.000-0300", "2015-10-12T12:56:09.000-0300", "BRASIL >> DEV >> MISS\u00c3O 2.10.1.0", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.172"], "Impediment", "Claim"], ["LAPSIS-1476", "Closed", "2015-05-05T10:37:30.000-0300", "2015-08-27T20:55:34.000-0300", "Apoio na gera\u00e7\u00e3o da build do invoice management", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.79"], "None", "PIMS Insurance"], ["LAPSIS-1489", "Closed", "2015-05-06T14:18:29.000-0300", "2015-08-27T20:50:27.000-0300", "PE >> DEV >> Erro ao abrir a tela de cria\u00e7\u00e3o de Ap\u00f3lice (ONLINE)", "Peru", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.47", "2.10.1.0.48"], "None", "PIMS Insurance"], ["LAPSIS-1491", "Closed", "2015-05-06T22:47:31.000-0300", "2015-08-27T20:51:54.000-0300", "PE >> DEV >> Erro ao executar o job de retorno de prima", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.49"], "None", "PIMS Insurance"], ["LAPSIS-1498", "Closed", "2015-05-07T14:28:27.000-0300", "2015-08-27T21:25:22.000-0300", "Nueva tabla de decisiones par diferenciar calculo de devoluci\u00f3n de comisiones de acuerdo a la causal de cancelaci\u00f3n", "Colombia", "N\u00e3o \u00e9 um erro", ["2.10.1.0.104"], "None", "ODM"], ["LAPSIS-1523", "Closed", "2015-05-12T13:03:13.000-0300", "2015-08-27T20:33:32.000-0300", "BatchModule - Campo de pesquisa por status de processamento (Pims Loader/File Processing)", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.54"], "None", "Batch Module"], ["LAPSIS-1547", "Closed", "2015-05-14T22:08:49.000-0300", "2015-08-27T20:53:03.000-0300", "Erro ao executar o apontamento de cobran\u00e7a", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.57"], "None", "PIMS Insurance"], ["LAPSIS-1555", "Closed", "2015-05-15T16:59:02.000-0300", "2015-08-27T20:50:27.000-0300", "O apontamento de renova\u00e7\u00e3o autom\u00e1tica n\u00e3o est\u00e1 executando corretamente", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.56", "2.10.1.0.57"], "None", "PIMS Insurance"], ["LAPSIS-1558", "Closed", "2015-05-15T18:09:26.000-0300", "2015-08-27T20:33:31.000-0300", "Erro no processamento ap\u00f3s a cria\u00e7\u00e3o de um segundo model mapping.", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0.59"], "None", "Batch Module"], ["LAPSIS-1630", "Closed", "2015-05-26T16:55:36.000-0300", "2015-08-27T21:25:03.000-0300", "ODM - O sistema n\u00e3o realiza o evento de cancelamento com sucesso para produto migrado (BC_RBSalirSeguroSoles).", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0.73", "2.10.1.0.75"], "None", "ODM"], ["LAPSIS-1637", "Closed", "2015-05-26T18:30:26.000-0300", "2015-08-27T20:50:28.000-0300", "Job de Inpagos", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.75"], "None", "PIMS Insurance"], ["LAPSIS-1641", "Closed", "2015-05-27T10:59:35.000-0300", "2015-08-27T21:04:57.000-0300", "Miss\u00e3o Peru 2.10.1 - Policy Tool - Na tela do Policy Tool est\u00e1 sendo exibida campos de LOTERIA", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.94"], "None", "Policy Tool"], ["LAPSIS-1642", "Closed", "2015-05-27T11:26:21.000-0300", "2015-08-27T20:50:28.000-0300", "Miss\u00e3o Peru 2.10.1 - Policy Tool - O sistema est\u00e1 exibindo as datas de in\u00edcio e fim erradas", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.87"], "None", "PIMS Insurance"], ["LAPSIS-1643", "Closed", "2015-05-27T11:39:09.000-0300", "2015-08-27T21:05:21.000-0300", "Miss\u00e3o Peru 2.10.1 - Policy Tool - O sistema apresenta a palavra RIESGO errada", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.84", "2.10.1.0.85"], "None", "Policy Tool"], ["LAPSIS-1660", "Closed", "2015-05-28T13:06:37.000-0300", "2015-08-27T21:05:12.000-0300", "Miss\u00e3o Peru 2.10.1 - PE >> Policy Tool >> N\u00e3o apresenta caracteres especiais", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.84", "2.10.1.0.85"], "None", "Policy Tool"], ["LAPSIS-1673", "Closed", "2015-05-29T15:05:07.000-0300", "2015-08-27T20:31:42.000-0300", "Batch Module -  Ao processar um arquivo de subscri\u00e7\u00e3o o sistema esta rejeitando o mesmo", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.83"], "None", "Batch Module"], ["LAPSIS-1696", "Closed", "2015-06-02T11:57:38.000-0300", "2015-08-27T20:50:32.000-0300", "BRASIL >> DEV >> Erro na tela de busca de fatura", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.87"], "None", "PIMS Insurance"], ["LAPSIS-1701", "Closed", "2015-06-03T13:38:01.000-0300", "2015-08-27T20:32:34.000-0300", "BR>>DEV>> Ao clicar no PLAY na carga com 7805 linhas, o BatchModule trava e n\u00e3o termina o processamento", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.86"], "None", "Batch Module"], ["LAPSIS-1702", "Closed", "2015-06-04T19:59:43.000-0300", "2015-08-27T20:31:32.000-0300", "PE >> DEV >> Batch Module n\u00e3o salva dados da Entry File", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.87", "2.10.1.0.91"], "None", "Batch Module"], ["LAPSIS-1703", "Closed", "2015-06-04T20:31:54.000-0300", "2015-08-27T20:54:55.000-0300", "PE >> PROD >> Lentid\u00e3o no Apontamento de Cobran\u00e7a", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.89"], "None", "PIMS Insurance"], ["LAPSIS-1707", "Closed", "2015-06-08T10:48:02.000-0300", "2015-08-27T20:32:39.000-0300", "Problema com Pagina\u00e7\u00e3o", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.94", "2.10.1.0.95"], "None", "Batch Module"], ["LAPSIS-1709", "Closed", "2015-06-08T11:30:09.000-0300", "2015-08-27T20:52:05.000-0300", "Par\u00e2metros para configurar o WebLife", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.94"], "None", "PIMS Insurance"], ["LAPSIS-1717", "Closed", "2015-06-08T17:25:15.000-0300", "2015-08-28T12:25:54.000-0300", "BR Seguros >> DEV >> N\u00e3o enviar o arquivo Banco de Fatura de Compra", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.97"], "None", "GLI"], ["LAPSIS-1732", "Closed", "2015-06-09T17:22:47.000-0300", "2015-08-27T20:52:37.000-0300", "PE >> PROD >> Aus\u00eancia de Informa\u00e7\u00f5es na tabela PIMS_REQUEST", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.93"], "None", "PIMS Insurance"], ["LAPSIS-1735", "Closed", "2015-06-09T17:58:26.000-0300", "2015-08-27T20:33:02.000-0300", "Suporte a arquivos diferentes de UTF-8", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.93"], "None", "Batch Module"], ["LAPSIS-1761", "Closed", "2015-06-12T17:14:30.000-0300", "2015-08-28T12:25:15.000-0300", "PE >> PROD >> Erro ao executar o job VISANET - Envio Cobranza VIGENTE", "Peru", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.99", "2.10.1.0.100"], "None", "PIMS Insurance"], ["LAPSIS-1772", "Closed", "2015-06-16T17:36:19.000-0300", "2015-08-27T20:32:41.000-0300", "Pagina\u00e7\u00e3o das mensagens de erro", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.97"], "None", "Batch Module"], ["LAPSIS-1775", "Closed", "2015-06-17T12:32:11.000-0300", "2015-08-27T20:51:28.000-0300", "PERU >> PROD >> Erro PaymentMasterCreditCard ( causa raiz )", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0.104"], "None", "PIMS Insurance"], ["LAPSIS-1777", "Closed", "2015-06-17T18:14:23.000-0300", "2015-08-27T20:52:54.000-0300", "[MISSAO] M\u00e9xico >> PRE-PROD >> Vers\u00e3o 2.10.1.0", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "Impediment", "PIMS Insurance"], ["LAPSIS-1779", "Closed", "2015-06-17T22:44:58.000-0300", "2015-08-27T20:33:25.000-0300", "Falha no envio de cargas ao PIMS (PMS)", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.102"], "None", "Batch Module"], ["LAPSIS-1796", "Closed", "2015-06-22T14:23:28.000-0300", "2015-10-30T14:37:36.000-0200", "Analise e defini\u00e7\u00e3o do Simbolo: TownName", "LAM", "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o", ["2.10.1.0.131"], "None", "PIMS Insurance"], ["LAPSIS-1833", "Closed", "2015-06-26T15:23:26.000-0300", "2015-08-27T20:50:57.000-0300", "LAM >> Product Tool >> Associar cobertura", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.107"], "None", "PIMS Insurance"], ["LAPSIS-1842", "Closed", "2015-06-30T12:12:58.000-0300", "2015-08-27T20:33:25.000-0300", "BR>>DEV>> Ap\u00f3s a instala\u00e7\u00e3o da build#102 #103 ao tentar logar no portal do BatchModule o sistema apresenta erro de autentica\u00e7\u00e3o", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.106"], "None", "Batch Module"], ["LAPSIS-1849", "Closed", "2015-07-01T11:34:47.000-0300", "2015-08-27T20:31:23.000-0300", "BR>>DEV> Ao processar um arquivo com um terceiro novo(segurado) o sistema n\u00e3o grava o endere\u00e7o completo", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.109"], "None", "Batch Module"], ["LAPSIS-1851", "Closed", "2015-07-01T14:48:50.000-0300", "2015-08-27T20:32:49.000-0300", "Erro ao tentar excluir um ProcessorPlugin", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.109"], "None", "Batch Module"], ["LAPSIS-1854", "Closed", "2015-07-01T17:44:14.000-0300", "2015-08-27T20:33:30.000-0300", "Export XLS", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.110"], "None", "Batch Module"], ["LAPSIS-1855", "Closed", "2015-07-01T17:46:28.000-0300", "2015-08-27T21:01:38.000-0300", "PERU >> DEV >> Erro ao associar documentos e coberturas para o produto CS_VidaTranquila.", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "Claim"], ["LAPSIS-1862", "Closed", "2015-07-02T12:24:54.000-0300", "2015-08-27T21:01:35.000-0300", "rebuild", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.108"], "None", "Claim"], ["LAPSIS-1863", "Closed", "2015-07-02T12:26:07.000-0300", "2015-08-27T20:54:28.000-0300", "rebuild", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.108"], "None", "PIMS Insurance"], ["LAPSIS-1864", "Closed", "2015-07-02T12:28:06.000-0300", "2015-08-27T21:04:59.000-0300", "rebuild", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.108"], "None", "Policy Tool"], ["LAPSIS-1870", "Closed", "2015-07-02T20:27:45.000-0300", "2015-08-27T20:32:41.000-0300", "Importa\u00e7\u00e3o de XML do UPLOAD n\u00e3o esta funcionando no IE", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.137", "2.10.1.0.138"], "None", "Batch Module"], ["LAPSIS-1871", "Closed", "2015-07-02T21:24:10.000-0300", "2015-10-01T10:04:57.000-0300", "PERU >> PRODUCAO >> ERRO DE ENVIO JOB VISA -  N\u00e3o realiza a altera\u00e7\u00e3o de moeda", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0.115"], "None", "PIMS Insurance"], ["LAPSIS-1872", "Closed", "2015-07-02T22:50:33.000-0300", "2015-08-27T20:32:31.000-0300", "[MISSAO] M\u00e9xico >> PRE-PROD >> Vers\u00e3o 2.10.1.0  Importa\u00e7\u00e3o de XML do UPLOAD n\u00e3o esta funcionando no IE", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-1876", "Closed", "2015-07-03T16:02:40.000-0300", "2015-08-27T20:33:03.000-0300", "suporte a eventos \"Suspend policy\" and \"Rescind policy after suspension\"", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.109", "2.10.1.0.110"], "None", "Batch Module"], ["LAPSIS-1882", "Closed", "2015-07-06T13:38:22.000-0300", "2015-10-05T09:18:57.000-0300", "PE>>TEST>> Ap\u00f3s reinicio do ambiente, o primeiro arquivo \u00e9 rejeitado.", "Peru", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-1885", "Closed", "2015-07-06T15:35:54.000-0300", "2015-08-27T20:31:33.000-0300", "PE>>TEST>> O sistema n\u00e3o realiza o envio de cobran\u00e7a", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.114"], "None", "Batch Module"], ["LAPSIS-1886", "Closed", "2015-07-06T15:57:04.000-0300", "2015-08-27T21:25:00.000-0300", "LAPSIS-1633 - BR>>DEV>> Batch Module Ao processar um arquivo com um papel que deve ser informado na ap\u00f3lice o sistema nao esta gravando", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "ODM"], ["LAPSIS-1887", "Closed", "2015-07-06T15:59:51.000-0300", "2015-08-27T21:25:04.000-0300", "LAPSIS-1804 - BR>>DEV>> Ao processar um arquivo de subscri\u00e7\u00e3o o sistema nao apresenta os movimentos individuais dos terceiros", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "ODM"], ["LAPSIS-1888", "Closed", "2015-07-06T16:03:28.000-0300", "2015-08-27T20:50:27.000-0300", "LAPSIS-1816 - BR>> DEV>> Ao criar um certificado, sistema esta carregando as datas do extrato de conta incorretamente", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "PIMS Insurance"], ["LAPSIS-1889", "Closed", "2015-07-06T16:06:26.000-0300", "2015-08-27T21:24:47.000-0300", "LAPSIS-1873 - BR>>DEV>> Para o produto F&I n\u00e3o \u00e9 necess\u00e1rio apresentar nos movimentos individuais o Risk Unit", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "ODM"], ["LAPSIS-1890", "Closed", "2015-07-06T17:51:42.000-0300", "2015-08-27T21:05:20.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.111"], "None", "Policy Tool"], ["LAPSIS-1893", "Closed", "2015-07-06T18:33:46.000-0300", "2015-08-27T21:25:13.000-0300", "LAPSIS-1814 - BR>>DEV>> Ao realizar o cancelamento de um certificado emitido o sistema est\u00e1 gerando CommissionDue", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "ODM"], ["LAPSIS-1894", "Closed", "2015-07-06T18:37:03.000-0300", "2015-08-27T21:24:43.000-0300", "LAPSIS-1731 - BR>>DEV>> Ao processar arquivos rejeitados o sistema n\u00e3o apresenta o tratamento para as mensagens", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.111"], "None", "ODM"], ["LAPSIS-1899", "Closed", "2015-07-06T23:23:25.000-0300", "2015-08-27T20:32:55.000-0300", "LAPSIS-1880 - MX >> PRE-PROD >> Aviso de Modifica\u00e7\u00f5es BatchModule", "LAM", "Unresolved", ["2.10.1.0.111"], "None", "Batch Module"], ["LAPSIS-1902", "Closed", "2015-07-07T13:04:51.000-0300", "2015-08-27T20:32:36.000-0300", "LAPSIS-1901 - BR>>DEV>> Ao acessar a tela do Entry file configuration o sistema apresenta erro An unexpected error occurred", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.112"], "None", "Batch Module"], ["LAPSIS-1906", "Closed", "2015-07-07T21:59:33.000-0300", "2015-08-27T20:50:27.000-0300", "PE >> PROD >> Evento Rescind policy after suspension cancela openitems de ap\u00f3lice com estado InForce", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.113", "2.10.1.0.114"], "None", "PIMS Insurance"], ["LAPSIS-1908", "Closed", "2015-07-08T08:35:09.000-0300", "2015-08-27T20:32:47.000-0300", "PE>>DEV>> N\u00e3o \u00e9 poss\u00edvel logar no BatchModule ap\u00f3s uma nova instala\u00e7\u00e3o ou reinicio do mesmo", "Peru", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0.145"], "None", "Batch Module"], ["LAPSIS-1909", "Closed", "2015-07-08T11:55:40.000-0300", "2015-08-27T20:32:19.000-0300", "LAPSIS-1891 - BR>>DEV>>Solicitamos o mapeamento da propriedade proposalNb no batch Module", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.114"], "None", "Batch Module"], ["LAPSIS-1910", "Closed", "2015-07-08T12:02:40.000-0300", "2015-08-27T20:32:58.000-0300", "mapeamento do campo \"Collector\"", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.114"], "None", "Batch Module"], ["LAPSIS-1913", "Closed", "2015-07-08T17:26:55.000-0300", "2015-08-27T20:50:28.000-0300", "PE>>DEV>> O sistema n\u00e3o cancela ap\u00f3lice com status SUSPENDED", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.113", "2.10.1.0.114"], "None", "PIMS Insurance"], ["LAPSIS-1915", "Closed", "2015-07-08T20:19:46.000-0300", "2015-08-27T21:02:41.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.114"], "None", "Claim"], ["LAPSIS-1916", "Closed", "2015-07-08T20:20:30.000-0300", "2015-08-27T21:04:55.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.114"], "None", "Policy Tool"], ["LAPSIS-1923", "Closed", "2015-07-10T15:43:52.000-0300", "2015-08-27T20:32:14.000-0300", "PE>>DEV>> O sistema n\u00e3o realiza o envio do Collector corretamente.", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.117"], "None", "Batch Module"], ["LAPSIS-1924", "Closed", "2015-07-10T15:54:25.000-0300", "2015-08-27T20:50:27.000-0300", "PE>>DEV>> O sistema n\u00e3o realiza o envio do Collector corretamente.", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.117"], "None", "PIMS Insurance"], ["LAPSIS-1925", "Closed", "2015-07-10T17:06:36.000-0300", "2015-08-27T20:55:54.000-0300", "PE>>DEV>> O sistema n\u00e3o realiza o reenvio de cobran\u00e7a", "Peru", "Corre\u00e7\u00e3o no Plugin", ["2.10.1.0.122"], "None", "PIMS Insurance"], ["LAPSIS-1928", "Closed", "2015-07-10T18:33:28.000-0300", "2015-08-27T21:05:03.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.117"], "None", "Policy Tool"], ["LAPSIS-1929", "Closed", "2015-07-10T18:34:29.000-0300", "2015-08-27T20:59:39.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.117"], "None", "Claim"], ["LAPSIS-1934", "Closed", "2015-07-13T15:46:21.000-0300", "2015-09-10T14:04:23.000-0300", "PERU >> PROD >> Consulta movimentos cont\u00e1bies n\u00e3o retorna resultado", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.149"], "None", "PIMS Insurance"], ["LAPSIS-1935", "Closed", "2015-07-13T18:31:41.000-0300", "2015-08-27T20:52:14.000-0300", "PE>>TEST>> Sistema n\u00e3o realiza o envio de cobran\u00e7a", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0.118"], "None", "PIMS Insurance"], ["LAPSIS-1938", "Closed", "2015-07-14T11:02:17.000-0300", "2015-08-27T20:51:07.000-0300", "PE>>TEST>> Ao inserir um terceiro novo com papel de Premium Payer, o sistema insere uma forma de pagamento com collector None (sem collector)", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.126"], "None", "PIMS Insurance"], ["LAPSIS-1947", "Closed", "2015-07-14T16:27:40.000-0300", "2015-08-27T20:32:04.000-0300", "LAPSIS-1930 - [MISSAO] M\u00e9xico >> PRE-PROD >> Mapeamento de Insured Goods", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.118"], "None", "Batch Module"], ["LAPSIS-1948", "Closed", "2015-07-14T16:55:01.000-0300", "2015-08-27T21:13:10.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.118"], "None", "ReportWeb"], ["LAPSIS-1949", "Closed", "2015-07-14T16:55:53.000-0300", "2015-08-27T20:32:18.000-0300", "PE>>TEST>> O sistema grava o collector como NULL e n\u00e3o realiza o envio de cobran\u00e7a", "Peru", "Corre\u00e7\u00e3o no Plugin", ["2.10.1.0.122"], "None", "Batch Module"], ["LAPSIS-1950", "Closed", "2015-07-14T16:55:54.000-0300", "2015-08-27T21:01:08.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.118"], "None", "GLI"], ["LAPSIS-1951", "Closed", "2015-07-14T16:56:58.000-0300", "2015-08-27T21:02:10.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.118"], "None", "Claim"], ["LAPSIS-1952", "Closed", "2015-07-14T16:58:00.000-0300", "2015-08-27T21:05:18.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.118"], "None", "Policy Tool"], ["LAPSIS-1953", "Closed", "2015-07-14T17:58:38.000-0300", "2015-08-27T21:24:29.000-0300", "PE>>TEST>> A Reserva do sinistro est\u00e1 vindo zerada", "Peru", "Configura\u00e7\u00e3o de Produtos", ["2.10.1.0.122"], "None", "ODM"], ["LAPSIS-1956", "Retesting", "2015-07-14T23:52:04.000-0300", "2015-08-28T12:23:50.000-0300", "PE >> DEV >> POLLASTPREMIUMBILLINGDATE est\u00e1 sendo calculado errado", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.130"], "None", "PIMS Insurance"], ["LAPSIS-1960", "Closed", "2015-07-15T12:04:25.000-0300", "2015-08-27T20:52:01.000-0300", "PERU >> GERA\u00c7\u00c3O DO JAR 2.10.10", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-1962", "Closed", "2015-07-15T16:27:36.000-0300", "2015-08-27T20:53:33.000-0300", "PE>>TEST>> O sistema n\u00e3o liquida comiss\u00f5es", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.126"], "None", "PIMS Insurance"], ["LAPSIS-1963", "Closed", "2015-07-15T16:43:05.000-0300", "2015-08-27T20:33:22.000-0300", "LAPSIS-1850 - MX >> PRE-PROD >> BatchModule IMPORT DE XML no Entry file", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.121", "2.10.1.0.122"], "None", "Batch Module"], ["LAPSIS-1965", "Closed", "2015-07-15T17:42:06.000-0300", "2015-08-27T21:01:34.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.122"], "None", "Claim"], ["LAPSIS-1966", "Closed", "2015-07-15T17:42:25.000-0300", "2015-08-27T21:04:56.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.122"], "None", "Policy Tool"], ["LAPSIS-1981", "Closed", "2015-07-17T16:07:14.000-0300", "2015-08-27T21:03:09.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.127"], "None", "Claim"], ["LAPSIS-1982", "Closed", "2015-07-17T16:08:19.000-0300", "2015-08-27T21:05:03.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.127"], "None", "Policy Tool"], ["LAPSIS-1983", "Closed", "2015-07-17T16:09:29.000-0300", "2015-08-27T20:31:22.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.127"], "None", "Batch Module"], ["LAPSIS-1984", "Closed", "2015-07-17T16:10:58.000-0300", "2015-08-27T21:12:54.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.127"], "None", "ReportWeb"], ["LAPSIS-1995", "Closed", "2015-07-20T14:27:51.000-0300", "2015-08-27T20:31:27.000-0300", "ORA-12899: value too large for column \"BATCHMODULE_BR_TES\".\"OPERATION_PROCESS\".\"DESCRIPTION\" ", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.128"], "None", "Batch Module"], ["LAPSIS-2003", "Closed", "2015-07-20T16:54:49.000-0300", "2015-08-27T21:25:35.000-0300", "PE>>DEV>> O sistema n\u00e3o gera Commission Recovery", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.132", "2.10.1.0.133"], "None", "ODM"], ["LAPSIS-2006", "Closed", "2015-07-21T14:04:18.000-0300", "2015-08-27T20:54:59.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.128"], "None", "PIMS Insurance"], ["LAPSIS-2007", "Closed", "2015-07-21T14:05:17.000-0300", "2015-08-27T21:02:49.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.128"], "None", "Claim"], ["LAPSIS-2008", "Closed", "2015-07-21T14:05:59.000-0300", "2015-08-27T21:05:04.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.128"], "None", "Policy Tool"], ["LAPSIS-2009", "Closed", "2015-07-21T14:08:03.000-0300", "2015-08-27T21:12:39.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.128"], "None", "ReportWeb"], ["LAPSIS-2010", "Closed", "2015-07-21T14:08:58.000-0300", "2015-08-27T21:01:18.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.128"], "None", "GLI"], ["LAPSIS-2015", "Closed", "2015-07-22T01:26:29.000-0300", "2015-08-27T20:55:01.000-0300", "MX >> PROD >> Jenkins executando job antes de finalizar o processo anterior", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.130"], "None", "PIMS Insurance"], ["LAPSIS-2018", "Closed", "2015-07-22T20:25:29.000-0300", "2015-08-27T21:05:22.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.129"], "None", "Policy Tool"], ["LAPSIS-2019", "Closed", "2015-07-22T20:27:54.000-0300", "2015-08-27T21:01:15.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.129"], "None", "Claim"], ["LAPSIS-2020", "Closed", "2015-07-22T20:31:25.000-0300", "2015-08-27T20:54:41.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.129"], "None", "PIMS Insurance"], ["LAPSIS-2021", "Closed", "2015-07-22T20:36:14.000-0300", "2015-08-27T20:32:38.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.129"], "None", "Batch Module"], ["LAPSIS-2027", "Closed", "2015-07-23T17:56:30.000-0300", "2015-08-28T11:55:00.000-0300", "Problema para exibi\u00e7\u00e3o das Propriedades Numericas do Produto", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.130"], "None", "PIMS Insurance"], ["LAPSIS-2028", "Closed", "2015-07-23T20:42:22.000-0300", "2015-08-27T21:02:31.000-0300", " rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.130"], "None", "Claim"], ["LAPSIS-2029", "Closed", "2015-07-23T20:42:35.000-0300", "2015-08-27T21:05:06.000-0300", " rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.130"], "None", "Policy Tool"], ["LAPSIS-2030", "Closed", "2015-07-23T20:42:47.000-0300", "2015-08-27T20:32:25.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.130"], "None", "Batch Module"], ["LAPSIS-2031", "Closed", "2015-07-23T20:42:59.000-0300", "2015-08-27T21:13:11.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.130"], "None", "ReportWeb"], ["LAPSIS-2032", "Closed", "2015-07-23T20:43:11.000-0300", "2015-08-27T21:01:08.000-0300", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.130"], "None", "GLI"], ["LAPSIS-2036", "Cancelled", "2015-07-27T10:06:27.000-0300", "2015-08-27T20:32:35.000-0300", "LAPSIS-1810 - BR>>DEV>> Ao realizar a busca por status Pendente no File Processing(Batch Module), sistema esta demorando para atualizar os dados na tela", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.133"], "None", "Batch Module"], ["LAPSIS-2048", "Closed", "2015-07-29T16:40:38.000-0300", "2015-08-27T20:32:23.000-0300", "LAPSIS-1921 - [MISSAO] M\u00e9xico >> PRE-PROD >> Erro lan\u00e7ado em c\u00f3digo n\u00e3o \u00e9 exibido na tela", "M\u00e9xico", "Unresolved", ["2.10.1.0.133"], "None", "Batch Module"], ["LAPSIS-2050", "Cancelled", "2015-07-29T17:00:28.000-0300", "2015-08-27T21:25:41.000-0300", "LAPSIS-1798 - BR>>DEV>> Ao cancelar uma ap\u00f3lice durante a vig\u00eancia o sistema est\u00e1 restiuindo o valor total do premio (Pr\u00f3-Rata)", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.133"], "None", "ODM"], ["LAPSIS-2061", "Closed", "2015-07-30T13:41:44.000-0300", "2015-08-27T20:33:09.000-0300", "Arquivos com STCP Code n\u00e3o configurado geram exception e ficam na pasta INBOX", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.133"], "None", "Batch Module"], ["LAPSIS-2068", "Closed", "2015-07-31T16:40:05.000-0300", "2015-11-03T16:23:01.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.136", "2.10.1.0.138", "2.10.1.0.160", "2.10.1.0.165", "2.10.1.0.175"], "None", "PIMS Insurance"], ["LAPSIS-2069", "Closed", "2015-07-31T16:40:33.000-0300", "2015-11-03T16:22:36.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.188", "2.10.1.0.190"], "None", "Claim"], ["LAPSIS-2070", "Closed", "2015-07-31T16:42:14.000-0300", "2015-11-03T16:23:11.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.136", "2.10.1.0.138", "2.10.1.0.141", "2.10.1.0.160", "2.10.1.0.161", "2.10.1.0.165", "2.10.1.0.168", "2.10.1.0.169", "2.10.1.0.175", "2.10.1.0.176", "2.10.1.0.187", "2.10.1.0.188", "2.10.1.0.190"], "None", "Policy Tool"], ["LAPSIS-2083", "Closed", "2015-08-03T17:07:05.000-0300", "2015-08-27T20:31:25.000-0300", "Erro durante gera\u00e7\u00e3o do arquivo de retorno autom\u00e1tico", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.138", "2.10.1.0.144", "2.10.1.0.145", "2.10.1.0.147"], "None", "Batch Module"], ["LAPSIS-2090", "Closed", "2015-08-04T18:05:37.000-0300", "2015-08-27T20:32:51.000-0300", "erro ao tentar excluir um entryfile", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.136"], "None", "Batch Module"], ["LAPSIS-2093", "Closed", "2015-08-05T11:15:38.000-0300", "2015-09-28T20:27:24.000-0300", "LAPSIS-2037 - BR>>DEV>> Ao processar um arquivo com mais de uma linha e com o terceiro que nao existe na base o sistema cria um terceiro por linha com o mesmo Third Party Number", "Brazil", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.141"], "None", "PIMS Insurance"], ["LAPSIS-2097", "Closed", "2015-08-05T16:26:59.000-0300", "2015-09-10T17:15:13.000-0300", "Sistema n\u00e3o esta gerando Premium Refund e Comission Recovery", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.155"], "None", "PIMS Insurance"], ["LAPSIS-2102", "Closed", "2015-08-06T11:16:11.000-0300", "2015-08-28T13:38:02.000-0300", "PE>>DEV>> O sistema n\u00e3o preenche o campo AUDIDATE na tabela POLICYDCO e PIMS_REQUEST para produto MIGRADO", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.145", "2.10.1.0.146"], "None", "PIMS Insurance"], ["LAPSIS-2105", "Closed", "2015-08-06T14:50:33.000-0300", "2015-08-28T10:48:33.000-0300", "PE>>DEV>> Sistema bloqueia a inser\u00e7\u00e3o da ap\u00f3lice exibindo a mensagem: Policy was not created ([MB003] The after sales operation effective date must be between the policy start and the policy end date)", "Peru", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "Impediment", "ODM"], ["LAPSIS-2111", "Closed", "2015-08-07T17:05:23.000-0300", "2015-11-03T16:23:24.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.138", "2.10.1.0.142", "2.10.1.0.154", "2.10.1.0.190"], "None", "ReportWeb"], ["LAPSIS-2117", "Closed", "2015-08-10T12:16:38.000-0300", "2015-08-27T20:33:32.000-0300", "Exporta\u00e7\u00e3o EXCEL  n\u00e3o est\u00e1 gerando arquivos.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.140", "2.10.1.0.141"], "None", "Batch Module"], ["LAPSIS-2118", "Closed", "2015-08-10T12:23:03.000-0300", "2015-08-27T20:31:25.000-0300", "Erro durante gera\u00e7\u00e3o \"Arquivo Retorno\"", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.141"], "None", "Batch Module"], ["LAPSIS-2119", "Closed", "2015-08-10T14:23:10.000-0300", "2015-10-20T11:51:45.000-0200", "MX >> PROD >> FaturaCompra.xml", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.143"], "None", "GLI"], ["LAPSIS-2129", "Closed", "2015-08-11T14:55:44.000-0300", "2015-08-28T11:53:02.000-0300", "BatchModule - O campo \"Sales Channel Description\" n\u00e3o est\u00e1 mapeado", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.152", "2.10.1.0.153"], "None", "Batch Module"], ["LAPSIS-2131", "Closed", "2015-08-11T15:08:31.000-0300", "2015-09-11T08:24:42.000-0300", "PE - PMS - O sistema n\u00e3o exibe as subcoberturas cadastradas no ODM", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.159"], "None", "Claim"], ["LAPSIS-2133", "Closed", "2015-08-11T17:33:42.000-0300", "2015-08-28T17:51:04.000-0300", "PE >> DEV / TEST >> Busca de ap\u00f3lices por produto", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.149"], "None", "PIMS Insurance"], ["LAPSIS-2140", "Closed", "2015-08-12T22:17:35.000-0300", "2015-09-08T15:16:59.000-0300", "MX >> DEV >> Erro processamento de carga upload", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0.157"], "None", "PIMS Insurance"], ["LAPSIS-2141", "Closed", "2015-08-12T22:24:40.000-0300", "2015-08-27T20:56:23.000-0300", "PE >> TEST >> Erro ao enviar Job de Cobran\u00e7a", "Peru", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0.149"], "None", "PIMS Insurance"], ["LAPSIS-2153", "Closed", "2015-08-14T15:28:17.000-0300", "2015-11-03T11:42:10.000-0200", "MX >> PROD >> Campo pims_exctn_dt n\u00e3o \u00e9 preenchido", "Colombia", "Defeito em c\u00f3digo", ["2.10.1.0.150"], "None", "GLI"], ["LAPSIS-2165", "Closed", "2015-08-17T15:01:34.000-0300", "2015-08-27T20:50:27.000-0300", "LAPSIS-2160  - BR>> PRD>> Ao enviar no arquivo uma concessionaria que n\u00e3o existe na base o sistema est\u00e1 criando o terceiro e permitindo o processamento do arquivo;", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.148"], "None", "PIMS Insurance"], ["LAPSIS-2167", "Closed", "2015-08-18T10:25:17.000-0300", "2015-10-12T12:54:59.000-0300", "BRASIL >> PROD >> MISS\u00c3O 2.10.1.0", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.171", "2.10.1.0.172"], "Impediment", "PIMS Insurance"], ["LAPSIS-2168", "Closed", "2015-08-18T10:52:22.000-0300", "2015-10-12T12:54:04.000-0300", "Evidenciar arquivos movidos a pasta erro ao filtro error.", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.151"], "None", "Batch Module"], ["LAPSIS-2169", "Closed", "2015-08-18T11:21:07.000-0300", "2015-08-27T20:33:15.000-0300", "BR>>PRD>> Ao alterar o Entry file no ambiente de PROD o sistema apresenta erro \u201cAn unexpected error occurred\u201d, n\u00e3o possibilitando a modifica\u00e7\u00e3o do mesmo.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.149"], "None", "Batch Module"], ["LAPSIS-2170", "Closed", "2015-08-18T12:05:00.000-0300", "2015-10-12T12:52:30.000-0300", "BR>>PRD>> Ao processar um arquivo no ambiente de PROD o sistema joga o mesmo na pasta ERROR n\u00e3o apresentando mensagem de erro.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.149"], "None", "Batch Module"], ["LAPSIS-2176", "Closed", "2015-08-19T11:31:28.000-0300", "2015-10-12T12:49:42.000-0300", "BR>>PRD>> Ao alterar o Entry file no ambiente de PROD o sistema apresenta erro \u201cAn unexpected error occurred\u201d, n\u00e3o possibilitando a modifica\u00e7\u00e3o do mesmo.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.149", "2.10.1.0.150"], "None", "Batch Module"], ["LAPSIS-2179", "Closed", "2015-08-19T16:30:21.000-0300", "2015-09-01T09:13:36.000-0300", "Sistema atribui valor de franquia a reserva pendente de um benef\u00edcio. ", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0.164"], "None", "Claim"], ["LAPSIS-2182", "Closed", "2015-08-19T18:32:15.000-0300", "2015-08-27T20:31:51.000-0300", "arquivo retorno apresenta erro de formula quando a configura\u00e7\u00e3o vai ser salva.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.152"], "None", "Batch Module"], ["LAPSIS-2183", "Closed", "2015-08-20T00:43:33.000-0300", "2015-08-27T20:55:27.000-0300", "Ajuste na Query que gera as entradas cont\u00e1beis", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.151"], "None", "PIMS Insurance"], ["LAPSIS-2184", "Closed", "2015-08-20T12:06:55.000-0300", "2015-09-02T10:44:27.000-0300", "PE>>DEV>> O sistema rejeito o arquivo e exibe NullPointerException: ", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.152"], "None", "PIMS Insurance"], ["LAPSIS-2189", "Closed", "2015-08-21T17:20:57.000-0300", "2015-09-17T15:34:00.000-0300", "PE - LAPSIS-2102 :DEV>> O sistema exibe as datas erradas na consulta de movimentos de ap\u00f3lice", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.161", "2.10.1.0.167"], "None", "PIMS Insurance"], ["LAPSIS-2197", "Delivered", "2015-08-24T14:51:28.000-0300", "2015-10-22T14:07:17.000-0200", "MX - LAASDK-2475 : DEV >> Relat\u00f3rio Reporte de Reserva", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "ReportWeb"], ["LAPSIS-2199", "Closed", "2015-08-24T19:20:20.000-0300", "2015-09-08T16:03:37.000-0300", "PE - LAASDK-2376 : PROD >> Ajuste de Dados PIMS_REQUEST", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.156", "2.10.1.0.163"], "None", "PIMS Insurance"], ["LAPSIS-2200", "Delivered", "2015-08-24T19:49:48.000-0300", "2015-11-13T10:40:30.000-0200", "Uso de fontes no ReportWeb", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.156"], "None", "ReportWeb"], ["LAPSIS-2204", "Closed", "2015-08-25T18:59:50.000-0300", "2015-08-27T20:50:38.000-0300", "Ao gerar comiss\u00e3o para mais de um Seller, Broker e etc... O sistema gravava as entradas cont\u00e1beis duplicadas.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.156", "2.10.1.0.157"], "None", "PIMS Insurance"], ["LAPSIS-2205", "Closed", "2015-08-25T19:04:50.000-0300", "2015-09-28T19:20:27.000-0300", "PE >> PROD >> Melhoria de Performance CollectorInvoice", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.157"], "None", "PIMS Insurance"], ["LAPSIS-2206", "Closed", "2015-08-26T09:32:51.000-0300", "2015-08-27T20:55:31.000-0300", "Melhoria na obten\u00e7\u00e3o das fatura que dever\u00e3o ser liquidadas pelo Job de Liquida\u00e7\u00e3o Autom\u00e1tica.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.157", "2.10.1.0.158"], "None", "PIMS Insurance"], ["LAPSIS-2209", "Closed", "2015-08-26T11:43:24.000-0300", "2015-08-27T20:31:43.000-0300", "PE>>DEV>> N\u00e3o \u00e9 poss\u00edvel realizar a subscri\u00e7\u00e3o via BatchModule", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.159"], "None", "Batch Module"], ["LAPSIS-2210", "Closed", "2015-08-26T11:54:33.000-0300", "2015-08-27T20:32:02.000-0300", "PE>>DEV>> A exibi\u00e7\u00e3o dos arquivos de todos os status est\u00e1 invertida", "Peru", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.159"], "None", "Batch Module"], ["LAPSIS-2211", "Closed", "2015-08-26T13:10:05.000-0300", "2015-08-27T20:33:01.000-0300", "PaymentMode vazio quando registro \u00e9 enviado ao PMS", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.159"], "None", "Batch Module"], ["LAPSIS-2213", "Delivered", "2015-08-26T17:53:30.000-0300", "2015-09-17T20:23:51.000-0300", "MX - LAASDK-2540 : Sistema apresenta erros diferentes ao processar carga de arquivos em Prod e Dev/Test", "M\u00e9xico", "Corre\u00e7\u00e3o no Plugin", ["2.10.1.0"], "Impediment", "Upload"], ["LAPSIS-2218", "Closed", "2015-08-27T14:38:39.000-0300", "2015-11-03T16:22:48.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0.161", "2.10.1.0.176"], "None", "Batch Module"], ["LAPSIS-2223", "Closed", "2015-08-27T17:40:46.000-0300", "2015-08-31T09:42:09.000-0300", "Foi criada uma classe no GLI para processar as transa\u00e7\u00f5es do Brasil na gera\u00e7\u00e3o do arquivo de Fatura Compra", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.162"], "None", "GLI"], ["LAPSIS-2227", "Closed", "2015-08-28T11:53:01.000-0300", "2015-09-05T15:00:16.000-0300", "PE - DEV>> Sistema n\u00e3o salva informa\u00e7\u00e3o preenchida no campo 'Sales Channel Description'", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.165"], "None", "Batch Module"], ["LAPSIS-2228", "Closed", "2015-08-28T15:06:11.000-0300", "2015-09-10T14:56:18.000-0300", "PE - DEV>> Sistema grava Plano errado na ap\u00f3lice, exibindo coberturas dos 2 planos na aba 'Coverage'", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2235", "Closed", "2015-08-31T12:26:28.000-0300", "2015-09-08T10:49:02.000-0300", "PE - LAASDK-2376", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2236", "Closed", "2015-08-31T12:38:34.000-0300", "2015-09-08T14:09:27.000-0300", "PE - LAASDK-2338", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2237", "Closed", "2015-08-31T12:41:28.000-0300", "2015-09-08T14:09:44.000-0300", "PE - LAASDK-2334 ", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2238", "Closed", "2015-08-31T12:44:18.000-0300", "2015-09-11T09:26:51.000-0300", "PE - LAASDK-2206", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.168"], "None", "PIMS Insurance"], ["LAPSIS-2239", "Closed", "2015-08-31T12:49:39.000-0300", "2015-09-10T17:56:52.000-0300", "PE - LAASDK-2102 ", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "Claim"], ["LAPSIS-2240", "Closed", "2015-08-31T12:52:15.000-0300", "2015-09-02T18:26:30.000-0300", "PE - LAASDK-2032", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2241", "Closed", "2015-08-31T12:58:48.000-0300", "2015-09-02T18:26:28.000-0300", "MX - LAASDK-2523", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2242", "Closed", "2015-08-31T13:01:18.000-0300", "2015-09-08T15:57:21.000-0300", "MX - LAASDK-2481", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2243", "Retesting", "2015-08-31T13:03:45.000-0300", "2015-08-31T17:06:10.000-0300", "MX - LAASDK-2476 ", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "Impediment", "PIMS Insurance"], ["LAPSIS-2244", "Retesting", "2015-08-31T13:05:45.000-0300", "2015-08-31T17:06:09.000-0300", "MX - LAASDK-2475", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "Impediment", "PIMS Insurance"], ["LAPSIS-2245", "Closed", "2015-08-31T13:07:49.000-0300", "2015-10-23T11:41:42.000-0200", "MX - LAASDK-2453", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "Impediment", "PIMS Insurance"], ["LAPSIS-2246", "Closed", "2015-08-31T13:09:49.000-0300", "2015-09-08T14:09:31.000-0300", "MX - LAASDK-2325 ", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2247", "Delivered", "2015-08-31T13:11:49.000-0300", "2015-09-11T18:33:26.000-0300", "MX - LAASDK-1037", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.170"], "Impediment", "GLI"], ["LAPSIS-2248", "Closed", "2015-08-31T13:37:30.000-0300", "2015-09-08T18:03:21.000-0300", "MX - LAASDK-2513", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2250", "Closed", "2015-08-31T13:46:07.000-0300", "2015-10-23T11:41:02.000-0200", "MX - LAASDK-2370 - Erro ao processar um arquivo para o produto TOYOTA", "M\u00e9xico", "Corre\u00e7\u00e3o no Plugin", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2253", "Closed", "2015-08-31T18:54:45.000-0300", "2015-09-05T16:16:48.000-0300", "PE - LAASDK-2015 Consulta de polizas diferente en Prod y Test", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.167"], "None", "PIMS Insurance"], ["LAPSIS-2256", "Cancelled", "2015-09-02T15:14:11.000-0300", "2015-10-06T12:29:11.000-0300", "CO - LAASDK-2013 : fechas de inicio de las p\u00f3lizas est\u00e1n apareciendo con horas 02:00:00", "Colombia", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2257", "Closed", "2015-09-02T15:45:36.000-0300", "2015-10-20T18:27:38.000-0200", "BR - LAASDK-2429 : Sinistro: erros configura\u00e7\u00e3o", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2258", "Closed", "2015-09-02T15:59:06.000-0300", "2015-10-20T18:21:37.000-0200", "BR - LAASDK-2079 : Tempo demasiado para leitura de arquivo no BM", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2259", "Closed", "2015-09-02T16:11:55.000-0300", "2015-09-08T14:09:36.000-0300", "BR - LAPSIS-2252 :PRD>> Arredondamento de Valores no xml de contabilidade", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2260", "Closed", "2015-09-02T16:15:18.000-0300", "2015-09-08T14:09:38.000-0300", "BR - LAPSIS-2132 :DEV>> Ao gerar uma fatura com GroupPremiumBilleds de diferentes GroupPolicys o sistema duplica o valor contabil.", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2261", "Closed", "2015-09-02T16:22:32.000-0300", "2015-09-08T14:09:41.000-0300", "BR - LAPSIS-2136 :DEV>> Ao gerar uma fatura com GroupPremiumReimbursement o sistema gera movimentos cont\u00e1beis negativo.", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2262", "Closed", "2015-09-02T16:34:52.000-0300", "2015-10-12T12:45:26.000-0300", "BR - LAASDK-2132 : ODM - Decision Center est\u00e1 travando, lento e n\u00e3o permite editar algumas regras", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2263", "Closed", "2015-09-02T22:37:33.000-0300", "2015-10-21T11:27:28.000-0200", "BR >> TEST >> GLI Problemas ao efetuar o recebimento de pagamento", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.166"], "None", "GLI"], ["LAPSIS-2271", "Closed", "2015-09-08T16:34:45.000-0300", "2015-10-23T08:57:36.000-0200", "BR>>DEV>> Ao subir um arquivo na pasta inbox o sistema sobe arquivo no servidor e apresenta NULL ", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2272", "Closed", "2015-09-08T20:04:07.000-0300", "2015-10-12T12:44:42.000-0300", "LAASDK-2626- CONFIGURA\u00c7\u00c3O DA CAR\u00caNCIA DE 30 DIAS - RESTITUI\u00c7\u00c3O EM AMBIENTE DE TEST", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2273", "Closed", "2015-09-08T20:42:38.000-0300", "2015-10-06T16:07:31.000-0300", "PE >> DEV >> Sistema apresenta duplicidade de coberturas.", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.169"], "None", "PIMS Insurance"], ["LAPSIS-2274", "Closed", "2015-09-09T09:35:58.000-0300", "2015-10-12T12:42:38.000-0300", "BR>>PR>> Ao realizar busca no m\u00f3dulo sinistro o sistema apresenta (C\u00f3digo: CDF001)", "Brazil", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.168"], "None", "Claim"], ["LAPSIS-2275", "Closed", "2015-09-09T10:31:09.000-0300", "2015-10-06T16:07:31.000-0300", "PE >> DEV >> BM Falha ao carregar novos certificados", "Peru", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2276", "Closed", "2015-09-09T11:08:13.000-0300", "2015-10-20T18:18:12.000-0200", "BR>>PRD>> Solicito apoio para cria\u00e7\u00e3o do script para ajustar o valor PremiumRefund", "Brazil", "Corre\u00e7\u00e3o em banco de dados", ["2.10.1.0.167", "2.10.1.0.168"], "None", "PIMS Insurance"], ["LAPSIS-2277", "Closed", "2015-09-09T12:18:26.000-0300", "2015-10-06T16:07:31.000-0300", "PE >> DEV >> Job de Impagos", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.168", "2.10.1.0.170"], "None", "PIMS Insurance"], ["LAPSIS-2278", "Closed", "2015-09-09T15:27:52.000-0300", "2015-10-13T15:17:38.000-0300", "BR>>TEST>> Ao alterar o response file no ambiente de TEST o sistema apresenta somente errors was found in response file configuration, please check", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.168"], "None", "Batch Module"], ["LAPSIS-2280", "Closed", "2015-09-10T12:58:42.000-0300", "2015-10-23T11:40:30.000-0200", "BR >> PROD >> Erro ao processar o recebimento de pagamento", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.169"], "None", "GLI"], ["LAPSIS-2282", "Closed", "2015-09-10T14:19:08.000-0300", "2015-09-10T18:13:18.000-0300", "PIMS BOM - moditica\u00e7\u00e3o de tipo de dados.", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.169"], "None", "PIMS Insurance"], ["LAPSIS-2287", "Closed", "2015-09-11T15:49:34.000-0300", "2015-10-08T23:47:11.000-0300", "Atualiza\u00e7\u00e3o de endere\u00e7o deve seguir mesmo padr\u00e3o do offline", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.119", "2.10.1.0.170"], "None", "PIMS Insurance"], ["LAPSIS-2288", "Closed", "2015-09-11T16:49:13.000-0300", "2015-10-20T18:17:36.000-0200", "BR>>DEV>> Ao carregar arquivos no Batch quando existe o vinculo de um plugin o sistema apresenta para alguns casos a seguinte exception Package br.com.bnpparibas.cardif.pims.batch.module.plugin.processor already defined", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.173"], "None", "Batch Module"], ["LAPSIS-2289", "Closed", "2015-09-14T15:29:26.000-0300", "2015-09-18T16:51:27.000-0300", "BR>>PROD>> Ao extrair os pagamentos no GLI o sistema gera o PIMS_DSB_ORD_NO iguais para pagamentos distintos", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.171"], "None", "GLI"], ["LAPSIS-2290", "Closed", "2015-09-14T16:00:02.000-0300", "2015-09-14T17:41:11.000-0300", "PE >> TEST >> Tela de movimentos de ap\u00f3lices n\u00e3o apresenta resultados. ", "Peru", "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2291", "Closed", "2015-09-14T16:08:54.000-0300", "2015-10-12T12:37:14.000-0300", "BR>>PROD>> Ao realizar o recebimento de pagamentos pelo SUN o sistema apresenta erro  Error on PaymentBOImpl.findEffectivePayments(): [org.springframework.remoting.RemoteAccessException] Could not deserialize result from HTTP invoker remote service ", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "GLI"], ["LAPSIS-2293", "Closed", "2015-09-14T21:35:15.000-0300", "2015-10-13T14:05:31.000-0300", "PE >> DEV >> JOB DE ENVIO VIGENTES", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2294", "Closed", "2015-09-15T11:59:30.000-0300", "2015-09-18T16:49:36.000-0300", "BR>>PROD>> Ao processar arquivo no ambiente de produ\u00e7\u00e3o o sistema n\u00e3o termina o processamento", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2295", "Closed", "2015-09-15T13:39:56.000-0300", "2015-10-09T17:26:59.000-0300", "Cria\u00e7\u00e3o de fun\u00e7\u00e3o \"Reajuste de premio anual pela infla\u00e7\u00e3o\"", "Colombia", "Defeito em c\u00f3digo", ["2.10.1.0", "2.10.0.0.35"], "None", "PIMS Insurance"], ["LAPSIS-2297", "Closed", "2015-09-15T19:09:31.000-0300", "2015-09-18T16:48:01.000-0300", "BR>>DEV>> Ao carregar o Batch Module, o sistema apresenta a mensagem \"An unexpected error occurred\u201d.", "LAM", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2298", "Closed", "2015-09-15T22:04:56.000-0300", "2015-09-18T23:20:22.000-0300", "PE >> DEV >> Sistema n\u00e3o esta exibindo informa\u00e7\u00f5es na tela \"visualizar movimentos\"", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.172"], "None", "PIMS Insurance"], ["LAPSIS-2299", "Closed", "2015-09-16T00:13:07.000-0300", "2015-10-06T16:07:31.000-0300", "PE >> TEST >> Detalhes do Evento", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.172"], "None", "PIMS Insurance"], ["LAPSIS-2303", "Closed", "2015-09-16T15:29:36.000-0300", "2015-10-12T12:35:18.000-0300", "BR>> Ao realizar a chamada do servi\u00e7o findPolicyDetailsResponse \u00e9 apresentado o erro  org.apache.cxf.binding.soap.SoapFault: Fault occurred while processing", "Brazil", "Instabilidade Sist\u00eamica", ["2.10.1.0"], "None", "WebSocio"], ["LAPSIS-2307", "Closed", "2015-09-17T15:35:47.000-0300", "2015-09-30T10:05:05.000-0300", "Ap\u00f3lice com m\u00faltiplos segurados", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.172"], "None", "Batch Module"], ["LAPSIS-2308", "Closed", "2015-09-17T17:58:42.000-0300", "2015-10-28T19:01:14.000-0200", "BR>>PROD>> Ao gerar uma restitui\u00e7\u00e3o, onde o PremiumRefund est\u00e1 com o status \u201cAutorizado\u201d ao extrair os pagamentos no GLI o sistema n\u00e3o est\u00e1 tomando em considera\u00e7\u00e3o este open Item.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.172"], "None", "GLI"], ["LAPSIS-2313", "Closed", "2015-09-18T16:04:04.000-0300", "2015-09-30T10:05:24.000-0300", "Performance", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.175"], "None", "Batch Module"], ["LAPSIS-2316", "Retesting", "2015-09-21T17:25:44.000-0300", "2015-11-13T16:01:25.000-0200", "BR >> PROD >> Claim insere dados incorretos na PIMS_DSBRSMNT", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.198"], "None", "GLI"], ["LAPSIS-2317", "Closed", "2015-09-21T18:35:29.000-0300", "2015-11-06T11:10:59.000-0200", "BR >> PROD >> Tipo de Movimento Peridiocidade Lan\u00e7amento Cont\u00e1bil Mensal n\u00e3o \u00e9 gerado", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2318", "Closed", "2015-09-21T19:23:56.000-0300", "2015-10-23T11:39:36.000-0200", "PE >> DEV >> Arredondamento ODM", "Peru", "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2321", "Closed", "2015-09-22T14:23:53.000-0300", "2015-10-08T23:44:03.000-0300", "MX >> DEV >> BatchModule - Cria\u00e7\u00e3o de linha de neg\u00f3cio Personal Loan", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.172", "2.10.1.0.173", "2.10.1.0.175"], "None", "Batch Module"], ["LAPSIS-2322", "Closed", "2015-09-22T18:16:44.000-0300", "2015-09-30T10:05:35.000-0300", "Tramantento de mensagem \"throw JavaScriptException\"", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.173"], "None", "Batch Module"], ["LAPSIS-2323", "Closed", "2015-09-23T10:47:55.000-0300", "2015-09-24T01:58:11.000-0300", "Ap\u00f3lice com m\u00faltiplos segurados", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.174"], "None", "Policy Tool"], ["LAPSIS-2334", "Closed", "2015-09-25T09:06:20.000-0300", "2015-10-16T10:21:59.000-0300", "MX >> DEV >> Apoio com o evento de Renova\u00e7\u00e3o", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2341", "Closed", "2015-09-29T10:33:31.000-0300", "2015-10-07T09:56:15.000-0300", "MX >> TEST >> Import/Export - Sistema apresenta erro no momento da importa\u00e7\u00e3o e n\u00e3o importa as configura\u00e7\u00f5es das tabelas dinamicas", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.179"], "None", "PIMS Insurance"], ["LAPSIS-2349", "Closed", "2015-09-30T14:10:41.000-0300", "2015-10-07T09:56:35.000-0300", "MX >> TEST >> Import/Export - Sistema n\u00e3o exporta as configura\u00e7\u00f5es das tabelas dinamicas", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.179"], "None", "PIMS Insurance"], ["LAPSIS-2351", "Closed", "2015-09-30T18:12:36.000-0300", "2015-10-05T10:18:52.000-0300", "BR >> PROD >> Manuten\u00e7\u00e3o da aplica\u00e7\u00e3o ReportWeb feita pelo pa\u00eds", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.178"], "None", "ReportWeb"], ["LAPSIS-2360", "Closed", "2015-10-01T19:05:16.000-0300", "2015-10-21T11:26:03.000-0200", "MX >> DEV >> Tabela STPO_GROUPINVOICEOPENITEM", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.181"], "None", "PIMS Insurance"], ["LAPSIS-2362", "Closed", "2015-10-02T17:38:17.000-0300", "2015-11-03T10:17:31.000-0200", "BR>>DEV>> Solicito apoio no processo de gera\u00e7\u00e3o de contabilidade no n\u00edvel individual", "Brazil", "Regra pendente de defini\u00e7\u00e3o", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2365", "Closed", "2015-10-02T18:37:14.000-0300", "2015-10-08T23:37:49.000-0300", "MX >> DEV >> Valida\u00e7\u00e3o em campos do terceiro", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.182"], "None", "PIMS Insurance"], ["LAPSIS-2367", "Closed", "2015-10-05T11:11:40.000-0300", "2015-10-21T11:25:28.000-0200", "MX >> DEV >> Erro ao processar pagamentos", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.183"], "None", "GLI"], ["LAPSIS-2371", "Closed", "2015-10-05T12:00:54.000-0300", "2015-10-08T23:48:31.000-0300", "Mapeamento RiskUnity \"Robbery\"", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.184"], "None", "Batch Module"], ["LAPSIS-2378", "Closed", "2015-10-05T19:34:53.000-0300", "2015-10-21T11:24:43.000-0200", "MX >> DEV >> N\u00e3o \u00e9 apresentado o nome do Produto na busca da fatura", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.184"], "None", "PIMS Insurance"], ["LAPSIS-2379", "Closed", "2015-10-06T10:31:03.000-0300", "2015-10-13T19:41:31.000-0300", "java.security.PrivilegedActionException", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.184"], "None", "PIMS Insurance"], ["LAPSIS-2384", "Closed", "2015-10-07T17:48:40.000-0300", "2015-10-13T19:41:44.000-0300", "Arquivos ficando em Load durante carga dos arquivos ...", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.185"], "None", "Batch Module"], ["LAPSIS-2385", "Closed", "2015-10-07T19:38:48.000-0300", "2015-10-08T23:37:01.000-0300", "MX >> TEST >> Manuten\u00e7\u00e3o de terceiros - PAYMENT MODE;", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.186"], "None", "PIMS Insurance"], ["LAPSIS-2386", "Closed", "2015-10-08T04:45:39.000-0300", "2015-10-21T11:24:05.000-0200", "MX >> DEV >> Cria\u00e7\u00e3o de provis\u00e3o de comiss\u00e3o", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.7", "2.10.1.0.186"], "None", "PIMS Insurance"], ["LAPSIS-2392", "Closed", "2015-10-08T17:59:21.000-0300", "2015-10-13T19:42:04.000-0300", "File Processing - Erro na data de busca", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.187", "2.10.1.0.188"], "None", "Batch Module"], ["LAPSIS-2394", "Closed", "2015-10-08T18:46:46.000-0300", "2015-10-21T11:23:40.000-0200", "MX >> DEV >> Erro ao emitir ap\u00f3lice usando Subscriber", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.187", "2.10.1.0.188"], "None", "PIMS Insurance"], ["LAPSIS-2396", "Closed", "2015-10-08T22:09:45.000-0300", "2015-10-13T19:41:53.000-0300", "Failed to initialize the reader", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.187", "2.10.1.0.188"], "None", "Batch Module"], ["LAPSIS-2397", "Closed", "2015-10-08T23:24:27.000-0300", "2015-10-21T11:23:07.000-0200", "MX >> TEST >> Erro na gera\u00e7\u00e3o de fatura", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.189"], "None", "PIMS Insurance"], ["LAPSIS-2398", "Closed", "2015-10-09T01:45:56.000-0300", "2015-10-13T14:02:09.000-0300", "MX >> TEST >> BATCHMODULE", "M\u00e9xico", "Instabilidade Sist\u00eamica", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2399", "Closed", "2015-10-09T02:07:52.000-0300", "2015-10-21T11:22:36.000-0200", "MX >> DEV >> NullPointer ao processar arquivo no Upload", "M\u00e9xico", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "Upload"], ["LAPSIS-2400", "Closed", "2015-10-09T11:30:18.000-0300", "2015-11-04T17:22:27.000-0200", "BR >> PROD >> Ap\u00f3s retorno do SUN, sistema n\u00e3o atualiza o status do OpenItem de sinsitro.", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "GLI"], ["LAPSIS-2402", "Closed", "2015-10-09T14:33:33.000-0300", "2015-11-16T11:02:17.000-0200", "BR >> PROD >> Retorno de pagamento de comiss\u00f5es via GLI com valores errados.", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "GLI"], ["LAPSIS-2419", "Closed", "2015-10-13T10:39:31.000-0300", "2015-10-22T17:12:06.000-0200", "BR >> DEV >> Sistema n\u00e3o permite a cria\u00e7\u00e3o do sinistro", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.191"], "None", "Claim"], ["LAPSIS-2420", "Closed", "2015-10-13T11:19:50.000-0300", "2015-11-03T16:22:55.000-0200", "rebuild", "LAM", "N\u00e3o \u00e9 um erro", ["2.10.1.0", "2.10.1.0.190"], "None", "GLI"], ["LAPSIS-2421", "Closed", "2015-10-13T12:08:06.000-0300", "2015-10-21T11:17:29.000-0200", "MX >> PROD >> Job Orchestractor", "M\u00e9xico", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2427", "Retesting", "2015-10-13T18:09:40.000-0300", "2015-10-28T15:59:10.000-0200", "MX >> DEV >> BatchModule [Model Mapping] - Campos n\u00e3o est\u00e3o salvando informa\u00e7\u00e3o mapeada", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.192"], "None", "Batch Module"], ["LAPSIS-2439", "Closed", "2015-10-14T15:05:41.000-0300", "2015-10-26T11:47:29.000-0200", "BR >> PROD >> O sistema n\u00e3o exibe endere\u00e7o dos tipos Home e Office na consulta feita pelo WebLife", "Brazil", "Regra pendente de defini\u00e7\u00e3o", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2440", "Closed", "2015-10-14T15:16:33.000-0300", "2015-10-26T11:47:48.000-0200", "BR >> PROD >> Os endere\u00e7os do tipo Home e Office devem ser alterados.", "Brazil", "Regra pendente de defini\u00e7\u00e3o", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2443", "Retesting", "2015-10-14T20:38:35.000-0300", "2015-10-28T15:59:04.000-0200", "MX >> TEST>> BatchModule >> Sistema n\u00e3o realiza inser\u00e7\u00e3o de ap\u00f3lice com Insured MORAL PERSON.", "M\u00e9xico", "Configura\u00e7\u00e3o de Produtos", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2466", "Closed", "2015-10-19T11:52:34.000-0200", "2015-10-22T17:13:44.000-0200", "BR >> PROD >> BatchModule exibe ambiente errado em Produ\u00e7\u00e3o", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2467", "Closed", "2015-10-19T13:28:00.000-0200", "2015-11-09T17:06:53.000-0200", "BR >> DEV >> N\u00e3o \u00e9 poss\u00edvel gerar fatura quando filtra-se por Parceiro e Nome do Produto", "Brazil", "Defeito em c\u00f3digo", ["3.0.0.0.29", "2.10.1.0.198"], "None", "PIMS Insurance"], ["LAPSIS-2471", "Closed", "2015-10-20T17:13:15.000-0200", "2015-10-22T16:19:14.000-0200", "BR >> DEV >> N\u00e3o \u00e9 poss\u00edvel gerar fatura quando filtra-se por Parceiro e Nome do Produto", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.193"], "None", "PIMS Insurance"], ["LAPSIS-2476", "Closed", "2015-10-21T12:54:18.000-0200", "2015-10-29T09:57:14.000-0200", "BRASIL >> PRODU\u00c7\u00c3O >> Dados do certificado n\u00e3o s\u00e3o exibidos ao realizar a consulta via WebServices", "Brazil", "Regra pendente de defini\u00e7\u00e3o", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2482", "Closed", "2015-10-21T16:30:12.000-0200", "2015-10-29T16:04:18.000-0200", "Incoerencia entre Tela de busca de terceiros e servi\u00e7o findThirdPartyDetailsById", "Brazil", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "PIMS Insurance"], ["LAPSIS-2484", "Retesting", "2015-10-21T18:53:17.000-0200", "2015-10-28T15:58:45.000-0200", "PE > DEV >> BatchModule - Erro ao carregar arquivo utilizando Converter.", "Peru", "Defeito em c\u00f3digo", ["2.10.1.0.194"], "None", "Batch Module"], ["LAPSIS-2485", "Closed", "2015-10-21T21:12:48.000-0200", "2015-11-13T10:43:41.000-0200", "PERU >> PRODU\u00c7\u00c3O >> N\u00c3O ATUALIZA O CAMPO ELECTRONICADDRESSNAMEINPUT NA TABELA CCOPTPTHIRDPARTY", "Peru", "Corre\u00e7\u00e3o no Plugin", ["2.10.1.0"], "None", "Upload"], ["LAPSIS-2495", "Retesting", "2015-10-23T16:33:25.000-0200", "2015-10-28T15:58:31.000-0200", "MX >> TEST ORA-00942: table or view does not exist", "M\u00e9xico", "Configura\u00e7\u00e3o de Ambiente", ["2.10.1.0"], "None", "Batch Module"], ["LAPSIS-2519", "Closed", "2015-10-26T23:51:40.000-0200", "2015-11-10T18:48:49.000-0200", "BR >> PROD >> Arquivo de Retorno", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0.197"], "None", "Batch Module"], ["LAPSIS-2522", "Closed", "2015-10-27T11:32:22.000-0200", "2015-11-10T17:37:27.000-0200", "BR >> PROD >> O sistema replica o openitem GroupPremiumBilled", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.195"], "None", "PIMS Insurance"], ["LAPSIS-2529", "Closed", "2015-10-27T16:44:52.000-0200", "2015-11-09T17:02:19.000-0200", "MX >> PROD >> Ao realizar consulta por produto na tela de \"Consulta Fatura Grupo\", o sistema traz como resultado faturas de todos os produtos relacionados ao Parceiro.", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.195"], "None", "PIMS Insurance"], ["LAPSIS-2532", "Closed", "2015-10-27T19:57:47.000-0200", "2015-11-03T16:24:25.000-0200", "Problemas para exporta\u00e7\u00e3o de configura\u00e7\u00f5es", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.195"], "None", "Batch Module"], ["LAPSIS-2562", "Closed", "2015-10-29T17:19:49.000-0200", "2015-11-09T09:11:22.000-0200", "Solicito an\u00e1lise na classe do GLI para validar a configura\u00e7\u00e3o da property seg.Partner", "Brazil", "N\u00e3o \u00e9 um erro", ["2.10.1.0"], "None", "GLI"], ["LAPSIS-2594", "Delivered", "2015-11-03T16:22:05.000-0200", "2015-11-03T16:32:01.000-0200", "MX >> PROD >> Blocks INPUT/VALUE", "M\u00e9xico", "Defeito em c\u00f3digo", ["2.10.1.0.196"], "None", "PIMS Insurance"], ["LAPSIS-2626", "Closed", "2015-11-05T17:31:28.000-0200", "2015-11-13T16:00:18.000-0200", "Ao gerar movimentos cont\u00e1beis para o cancelamento de fatura o sistema gera as informa\u00e7\u00f5es zeradas.", "Brazil", "Configura\u00e7\u00e3o de Produtos", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2638", "Closed", "2015-11-06T16:14:11.000-0200", "2015-11-12T09:41:43.000-0200", "Ao realizar o cancelamento o sistema n\u00e3o gera movimento cont\u00e1bil para os pr\u00eamios individuais / comiss\u00f5es o sistema n\u00e3o gerou movimenta\u00e7\u00e3o.", "Brazil", "Configura\u00e7\u00e3o de Produtos", ["2.10.1.0"], "None", "ODM"], ["LAPSIS-2647", "Retesting", "2015-11-09T18:29:35.000-0200", "2015-11-13T15:59:52.000-0200", "BR>> Valida\u00e7\u00e3o se as fun\u00e7\u00f5es no ticket foram implementadas no ODM", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.199"], "None", "PIMS Insurance"], ["LAPSIS-2663", "Delivered", "2015-11-11T18:13:37.000-0200", "2015-11-16T20:12:39.000-0200", "Associar a cobertura AccidentalDamageProtection ao Claim", "LAM", "Defeito em c\u00f3digo", ["2.10.1.0.200"], "None", "Claim"], ["LAPSIS-2682", "Delivered", "2015-11-13T15:26:02.000-0200", "2015-11-16T20:13:44.000-0200", "Ao processar um arquivo que chega com o formato ASCII, UTF-8, ANSI ao processar o arquivo o sistema gera o arquivo de retorno com o encod UTF-8 \u2013BOM gerando v\u00e1rios erros nos caracteres que possuem acentua\u00e7\u00e3o.", "Brazil", "Defeito em c\u00f3digo", ["2.10.1.0.200"], "Impediment", "Batch Module"]]
+[
+    [
+        "LAPSIS-1383",
+        "Closed",
+        "2015-04-23T21:36:23.000-0300",
+        "2015-09-29T18:15:58.000-0300",
+        "Ao utilizar uma cobertura de morte o tratamento na carta de morte para documentos pendentes deve ser com Familiares",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1385",
+        "Closed",
+        "2015-04-24T12:47:12.000-0300",
+        "2015-09-28T11:54:24.000-0300",
+        "MX - LAASDK-1891 :MEXICO >> TEST >> SOMA DE VALORES UDI\u00b4S PRODUTO EWAutoNBB",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.168"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1469",
+        "Closed",
+        "2015-05-04T18:24:01.000-0300",
+        "2015-10-12T12:56:09.000-0300",
+        "BRASIL >> DEV >> MISS\u00c3O 2.10.1.0",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.172"
+        ],
+        "Impediment",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1476",
+        "Closed",
+        "2015-05-05T10:37:30.000-0300",
+        "2015-08-27T20:55:34.000-0300",
+        "Apoio na gera\u00e7\u00e3o da build do invoice management",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.79"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1489",
+        "Closed",
+        "2015-05-06T14:18:29.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "PE >> DEV >> Erro ao abrir a tela de cria\u00e7\u00e3o de Ap\u00f3lice (ONLINE)",
+        "Peru",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.47",
+            "2.10.1.0.48"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1491",
+        "Closed",
+        "2015-05-06T22:47:31.000-0300",
+        "2015-08-27T20:51:54.000-0300",
+        "PE >> DEV >> Erro ao executar o job de retorno de prima",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.49"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1498",
+        "Closed",
+        "2015-05-07T14:28:27.000-0300",
+        "2015-08-27T21:25:22.000-0300",
+        "Nueva tabla de decisiones par diferenciar calculo de devoluci\u00f3n de comisiones de acuerdo a la causal de cancelaci\u00f3n",
+        "Colombia",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.104"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1523",
+        "Closed",
+        "2015-05-12T13:03:13.000-0300",
+        "2015-08-27T20:33:32.000-0300",
+        "BatchModule - Campo de pesquisa por status de processamento (Pims Loader/File Processing)",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.54"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1547",
+        "Closed",
+        "2015-05-14T22:08:49.000-0300",
+        "2015-08-27T20:53:03.000-0300",
+        "Erro ao executar o apontamento de cobran\u00e7a",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.57"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1555",
+        "Closed",
+        "2015-05-15T16:59:02.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "O apontamento de renova\u00e7\u00e3o autom\u00e1tica n\u00e3o est\u00e1 executando corretamente",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.56",
+            "2.10.1.0.57"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1558",
+        "Closed",
+        "2015-05-15T18:09:26.000-0300",
+        "2015-08-27T20:33:31.000-0300",
+        "Erro no processamento ap\u00f3s a cria\u00e7\u00e3o de um segundo model mapping.",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.59"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1630",
+        "Closed",
+        "2015-05-26T16:55:36.000-0300",
+        "2015-08-27T21:25:03.000-0300",
+        "ODM - O sistema n\u00e3o realiza o evento de cancelamento com sucesso para produto migrado (BC_RBSalirSeguroSoles).",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.73",
+            "2.10.1.0.75"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1637",
+        "Closed",
+        "2015-05-26T18:30:26.000-0300",
+        "2015-08-27T20:50:28.000-0300",
+        "Job de Inpagos",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.75"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1641",
+        "Closed",
+        "2015-05-27T10:59:35.000-0300",
+        "2015-08-27T21:04:57.000-0300",
+        "Miss\u00e3o Peru 2.10.1 - Policy Tool - Na tela do Policy Tool est\u00e1 sendo exibida campos de LOTERIA",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.94"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1642",
+        "Closed",
+        "2015-05-27T11:26:21.000-0300",
+        "2015-08-27T20:50:28.000-0300",
+        "Miss\u00e3o Peru 2.10.1 - Policy Tool - O sistema est\u00e1 exibindo as datas de in\u00edcio e fim erradas",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.87"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1643",
+        "Closed",
+        "2015-05-27T11:39:09.000-0300",
+        "2015-08-27T21:05:21.000-0300",
+        "Miss\u00e3o Peru 2.10.1 - Policy Tool - O sistema apresenta a palavra RIESGO errada",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.84",
+            "2.10.1.0.85"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1660",
+        "Closed",
+        "2015-05-28T13:06:37.000-0300",
+        "2015-08-27T21:05:12.000-0300",
+        "Miss\u00e3o Peru 2.10.1 - PE >> Policy Tool >> N\u00e3o apresenta caracteres especiais",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.84",
+            "2.10.1.0.85"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1673",
+        "Closed",
+        "2015-05-29T15:05:07.000-0300",
+        "2015-08-27T20:31:42.000-0300",
+        "Batch Module -  Ao processar um arquivo de subscri\u00e7\u00e3o o sistema esta rejeitando o mesmo",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.83"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1696",
+        "Closed",
+        "2015-06-02T11:57:38.000-0300",
+        "2015-08-27T20:50:32.000-0300",
+        "BRASIL >> DEV >> Erro na tela de busca de fatura",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.87"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1701",
+        "Closed",
+        "2015-06-03T13:38:01.000-0300",
+        "2015-08-27T20:32:34.000-0300",
+        "BR>>DEV>> Ao clicar no PLAY na carga com 7805 linhas, o BatchModule trava e n\u00e3o termina o processamento",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.86"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1702",
+        "Closed",
+        "2015-06-04T19:59:43.000-0300",
+        "2015-08-27T20:31:32.000-0300",
+        "PE >> DEV >> Batch Module n\u00e3o salva dados da Entry File",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.87",
+            "2.10.1.0.91"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1703",
+        "Closed",
+        "2015-06-04T20:31:54.000-0300",
+        "2015-08-27T20:54:55.000-0300",
+        "PE >> PROD >> Lentid\u00e3o no Apontamento de Cobran\u00e7a",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.89"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1707",
+        "Closed",
+        "2015-06-08T10:48:02.000-0300",
+        "2015-08-27T20:32:39.000-0300",
+        "Problema com Pagina\u00e7\u00e3o",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.94",
+            "2.10.1.0.95"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1709",
+        "Closed",
+        "2015-06-08T11:30:09.000-0300",
+        "2015-08-27T20:52:05.000-0300",
+        "Par\u00e2metros para configurar o WebLife",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.94"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1717",
+        "Closed",
+        "2015-06-08T17:25:15.000-0300",
+        "2015-08-28T12:25:54.000-0300",
+        "BR Seguros >> DEV >> N\u00e3o enviar o arquivo Banco de Fatura de Compra",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.97"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-1732",
+        "Closed",
+        "2015-06-09T17:22:47.000-0300",
+        "2015-08-27T20:52:37.000-0300",
+        "PE >> PROD >> Aus\u00eancia de Informa\u00e7\u00f5es na tabela PIMS_REQUEST",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.93"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1735",
+        "Closed",
+        "2015-06-09T17:58:26.000-0300",
+        "2015-08-27T20:33:02.000-0300",
+        "Suporte a arquivos diferentes de UTF-8",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.93"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1761",
+        "Closed",
+        "2015-06-12T17:14:30.000-0300",
+        "2015-08-28T12:25:15.000-0300",
+        "PE >> PROD >> Erro ao executar o job VISANET - Envio Cobranza VIGENTE",
+        "Peru",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.99",
+            "2.10.1.0.100"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1772",
+        "Closed",
+        "2015-06-16T17:36:19.000-0300",
+        "2015-08-27T20:32:41.000-0300",
+        "Pagina\u00e7\u00e3o das mensagens de erro",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.97"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1775",
+        "Closed",
+        "2015-06-17T12:32:11.000-0300",
+        "2015-08-27T20:51:28.000-0300",
+        "PERU >> PROD >> Erro PaymentMasterCreditCard ( causa raiz )",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.104"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1777",
+        "Closed",
+        "2015-06-17T18:14:23.000-0300",
+        "2015-08-27T20:52:54.000-0300",
+        "[MISSAO] M\u00e9xico >> PRE-PROD >> Vers\u00e3o 2.10.1.0",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1779",
+        "Closed",
+        "2015-06-17T22:44:58.000-0300",
+        "2015-08-27T20:33:25.000-0300",
+        "Falha no envio de cargas ao PIMS (PMS)",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.102"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1796",
+        "Closed",
+        "2015-06-22T14:23:28.000-0300",
+        "2015-10-30T14:37:36.000-0200",
+        "Analise e defini\u00e7\u00e3o do Simbolo: TownName",
+        "LAM",
+        "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o",
+        [
+            "2.10.1.0.131"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1833",
+        "Closed",
+        "2015-06-26T15:23:26.000-0300",
+        "2015-08-27T20:50:57.000-0300",
+        "LAM >> Product Tool >> Associar cobertura",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.107"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1842",
+        "Closed",
+        "2015-06-30T12:12:58.000-0300",
+        "2015-08-27T20:33:25.000-0300",
+        "BR>>DEV>> Ap\u00f3s a instala\u00e7\u00e3o da build#102 #103 ao tentar logar no portal do BatchModule o sistema apresenta erro de autentica\u00e7\u00e3o",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.106"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1849",
+        "Closed",
+        "2015-07-01T11:34:47.000-0300",
+        "2015-08-27T20:31:23.000-0300",
+        "BR>>DEV> Ao processar um arquivo com um terceiro novo(segurado) o sistema n\u00e3o grava o endere\u00e7o completo",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.109"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1851",
+        "Closed",
+        "2015-07-01T14:48:50.000-0300",
+        "2015-08-27T20:32:49.000-0300",
+        "Erro ao tentar excluir um ProcessorPlugin",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.109"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1854",
+        "Closed",
+        "2015-07-01T17:44:14.000-0300",
+        "2015-08-27T20:33:30.000-0300",
+        "Export XLS",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.110"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1855",
+        "Closed",
+        "2015-07-01T17:46:28.000-0300",
+        "2015-08-27T21:01:38.000-0300",
+        "PERU >> DEV >> Erro ao associar documentos e coberturas para o produto CS_VidaTranquila.",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1862",
+        "Closed",
+        "2015-07-02T12:24:54.000-0300",
+        "2015-08-27T21:01:35.000-0300",
+        "rebuild",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.108"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1863",
+        "Closed",
+        "2015-07-02T12:26:07.000-0300",
+        "2015-08-27T20:54:28.000-0300",
+        "rebuild",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.108"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1864",
+        "Closed",
+        "2015-07-02T12:28:06.000-0300",
+        "2015-08-27T21:04:59.000-0300",
+        "rebuild",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.108"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1870",
+        "Closed",
+        "2015-07-02T20:27:45.000-0300",
+        "2015-08-27T20:32:41.000-0300",
+        "Importa\u00e7\u00e3o de XML do UPLOAD n\u00e3o esta funcionando no IE",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.137",
+            "2.10.1.0.138"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1871",
+        "Closed",
+        "2015-07-02T21:24:10.000-0300",
+        "2015-10-01T10:04:57.000-0300",
+        "PERU >> PRODUCAO >> ERRO DE ENVIO JOB VISA -  N\u00e3o realiza a altera\u00e7\u00e3o de moeda",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.115"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1872",
+        "Closed",
+        "2015-07-02T22:50:33.000-0300",
+        "2015-08-27T20:32:31.000-0300",
+        "[MISSAO] M\u00e9xico >> PRE-PROD >> Vers\u00e3o 2.10.1.0  Importa\u00e7\u00e3o de XML do UPLOAD n\u00e3o esta funcionando no IE",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1876",
+        "Closed",
+        "2015-07-03T16:02:40.000-0300",
+        "2015-08-27T20:33:03.000-0300",
+        "suporte a eventos \"Suspend policy\" and \"Rescind policy after suspension\"",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.109",
+            "2.10.1.0.110"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1882",
+        "Closed",
+        "2015-07-06T13:38:22.000-0300",
+        "2015-10-05T09:18:57.000-0300",
+        "PE>>TEST>> Ap\u00f3s reinicio do ambiente, o primeiro arquivo \u00e9 rejeitado.",
+        "Peru",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1885",
+        "Closed",
+        "2015-07-06T15:35:54.000-0300",
+        "2015-08-27T20:31:33.000-0300",
+        "PE>>TEST>> O sistema n\u00e3o realiza o envio de cobran\u00e7a",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.114"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1886",
+        "Closed",
+        "2015-07-06T15:57:04.000-0300",
+        "2015-08-27T21:25:00.000-0300",
+        "LAPSIS-1633 - BR>>DEV>> Batch Module Ao processar um arquivo com um papel que deve ser informado na ap\u00f3lice o sistema nao esta gravando",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1887",
+        "Closed",
+        "2015-07-06T15:59:51.000-0300",
+        "2015-08-27T21:25:04.000-0300",
+        "LAPSIS-1804 - BR>>DEV>> Ao processar um arquivo de subscri\u00e7\u00e3o o sistema nao apresenta os movimentos individuais dos terceiros",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1888",
+        "Closed",
+        "2015-07-06T16:03:28.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "LAPSIS-1816 - BR>> DEV>> Ao criar um certificado, sistema esta carregando as datas do extrato de conta incorretamente",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1889",
+        "Closed",
+        "2015-07-06T16:06:26.000-0300",
+        "2015-08-27T21:24:47.000-0300",
+        "LAPSIS-1873 - BR>>DEV>> Para o produto F&I n\u00e3o \u00e9 necess\u00e1rio apresentar nos movimentos individuais o Risk Unit",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1890",
+        "Closed",
+        "2015-07-06T17:51:42.000-0300",
+        "2015-08-27T21:05:20.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1893",
+        "Closed",
+        "2015-07-06T18:33:46.000-0300",
+        "2015-08-27T21:25:13.000-0300",
+        "LAPSIS-1814 - BR>>DEV>> Ao realizar o cancelamento de um certificado emitido o sistema est\u00e1 gerando CommissionDue",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1894",
+        "Closed",
+        "2015-07-06T18:37:03.000-0300",
+        "2015-08-27T21:24:43.000-0300",
+        "LAPSIS-1731 - BR>>DEV>> Ao processar arquivos rejeitados o sistema n\u00e3o apresenta o tratamento para as mensagens",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1899",
+        "Closed",
+        "2015-07-06T23:23:25.000-0300",
+        "2015-08-27T20:32:55.000-0300",
+        "LAPSIS-1880 - MX >> PRE-PROD >> Aviso de Modifica\u00e7\u00f5es BatchModule",
+        "LAM",
+        "Unresolved",
+        [
+            "2.10.1.0.111"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1902",
+        "Closed",
+        "2015-07-07T13:04:51.000-0300",
+        "2015-08-27T20:32:36.000-0300",
+        "LAPSIS-1901 - BR>>DEV>> Ao acessar a tela do Entry file configuration o sistema apresenta erro An unexpected error occurred",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.112"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1906",
+        "Closed",
+        "2015-07-07T21:59:33.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "PE >> PROD >> Evento Rescind policy after suspension cancela openitems de ap\u00f3lice com estado InForce",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.113",
+            "2.10.1.0.114"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1908",
+        "Closed",
+        "2015-07-08T08:35:09.000-0300",
+        "2015-08-27T20:32:47.000-0300",
+        "PE>>DEV>> N\u00e3o \u00e9 poss\u00edvel logar no BatchModule ap\u00f3s uma nova instala\u00e7\u00e3o ou reinicio do mesmo",
+        "Peru",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0.145"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1909",
+        "Closed",
+        "2015-07-08T11:55:40.000-0300",
+        "2015-08-27T20:32:19.000-0300",
+        "LAPSIS-1891 - BR>>DEV>>Solicitamos o mapeamento da propriedade proposalNb no batch Module",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.114"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1910",
+        "Closed",
+        "2015-07-08T12:02:40.000-0300",
+        "2015-08-27T20:32:58.000-0300",
+        "mapeamento do campo \"Collector\"",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.114"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1913",
+        "Closed",
+        "2015-07-08T17:26:55.000-0300",
+        "2015-08-27T20:50:28.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o cancela ap\u00f3lice com status SUSPENDED",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.113",
+            "2.10.1.0.114"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1915",
+        "Closed",
+        "2015-07-08T20:19:46.000-0300",
+        "2015-08-27T21:02:41.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.114"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1916",
+        "Closed",
+        "2015-07-08T20:20:30.000-0300",
+        "2015-08-27T21:04:55.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.114"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1923",
+        "Closed",
+        "2015-07-10T15:43:52.000-0300",
+        "2015-08-27T20:32:14.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o realiza o envio do Collector corretamente.",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.117"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1924",
+        "Closed",
+        "2015-07-10T15:54:25.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o realiza o envio do Collector corretamente.",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.117"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1925",
+        "Closed",
+        "2015-07-10T17:06:36.000-0300",
+        "2015-08-27T20:55:54.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o realiza o reenvio de cobran\u00e7a",
+        "Peru",
+        "Corre\u00e7\u00e3o no Plugin",
+        [
+            "2.10.1.0.122"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1928",
+        "Closed",
+        "2015-07-10T18:33:28.000-0300",
+        "2015-08-27T21:05:03.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.117"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1929",
+        "Closed",
+        "2015-07-10T18:34:29.000-0300",
+        "2015-08-27T20:59:39.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.117"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1934",
+        "Closed",
+        "2015-07-13T15:46:21.000-0300",
+        "2015-09-10T14:04:23.000-0300",
+        "PERU >> PROD >> Consulta movimentos cont\u00e1bies n\u00e3o retorna resultado",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.149"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1935",
+        "Closed",
+        "2015-07-13T18:31:41.000-0300",
+        "2015-08-27T20:52:14.000-0300",
+        "PE>>TEST>> Sistema n\u00e3o realiza o envio de cobran\u00e7a",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1938",
+        "Closed",
+        "2015-07-14T11:02:17.000-0300",
+        "2015-08-27T20:51:07.000-0300",
+        "PE>>TEST>> Ao inserir um terceiro novo com papel de Premium Payer, o sistema insere uma forma de pagamento com collector None (sem collector)",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.126"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1947",
+        "Closed",
+        "2015-07-14T16:27:40.000-0300",
+        "2015-08-27T20:32:04.000-0300",
+        "LAPSIS-1930 - [MISSAO] M\u00e9xico >> PRE-PROD >> Mapeamento de Insured Goods",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1948",
+        "Closed",
+        "2015-07-14T16:55:01.000-0300",
+        "2015-08-27T21:13:10.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-1949",
+        "Closed",
+        "2015-07-14T16:55:53.000-0300",
+        "2015-08-27T20:32:18.000-0300",
+        "PE>>TEST>> O sistema grava o collector como NULL e n\u00e3o realiza o envio de cobran\u00e7a",
+        "Peru",
+        "Corre\u00e7\u00e3o no Plugin",
+        [
+            "2.10.1.0.122"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1950",
+        "Closed",
+        "2015-07-14T16:55:54.000-0300",
+        "2015-08-27T21:01:08.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-1951",
+        "Closed",
+        "2015-07-14T16:56:58.000-0300",
+        "2015-08-27T21:02:10.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1952",
+        "Closed",
+        "2015-07-14T16:58:00.000-0300",
+        "2015-08-27T21:05:18.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.118"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1953",
+        "Closed",
+        "2015-07-14T17:58:38.000-0300",
+        "2015-08-27T21:24:29.000-0300",
+        "PE>>TEST>> A Reserva do sinistro est\u00e1 vindo zerada",
+        "Peru",
+        "Configura\u00e7\u00e3o de Produtos",
+        [
+            "2.10.1.0.122"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-1956",
+        "Retesting",
+        "2015-07-14T23:52:04.000-0300",
+        "2015-08-28T12:23:50.000-0300",
+        "PE >> DEV >> POLLASTPREMIUMBILLINGDATE est\u00e1 sendo calculado errado",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1960",
+        "Closed",
+        "2015-07-15T12:04:25.000-0300",
+        "2015-08-27T20:52:01.000-0300",
+        "PERU >> GERA\u00c7\u00c3O DO JAR 2.10.10",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1962",
+        "Closed",
+        "2015-07-15T16:27:36.000-0300",
+        "2015-08-27T20:53:33.000-0300",
+        "PE>>TEST>> O sistema n\u00e3o liquida comiss\u00f5es",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.126"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-1963",
+        "Closed",
+        "2015-07-15T16:43:05.000-0300",
+        "2015-08-27T20:33:22.000-0300",
+        "LAPSIS-1850 - MX >> PRE-PROD >> BatchModule IMPORT DE XML no Entry file",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.121",
+            "2.10.1.0.122"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1965",
+        "Closed",
+        "2015-07-15T17:42:06.000-0300",
+        "2015-08-27T21:01:34.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.122"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1966",
+        "Closed",
+        "2015-07-15T17:42:25.000-0300",
+        "2015-08-27T21:04:56.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.122"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1981",
+        "Closed",
+        "2015-07-17T16:07:14.000-0300",
+        "2015-08-27T21:03:09.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.127"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-1982",
+        "Closed",
+        "2015-07-17T16:08:19.000-0300",
+        "2015-08-27T21:05:03.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.127"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-1983",
+        "Closed",
+        "2015-07-17T16:09:29.000-0300",
+        "2015-08-27T20:31:22.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.127"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-1984",
+        "Closed",
+        "2015-07-17T16:10:58.000-0300",
+        "2015-08-27T21:12:54.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.127"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-1995",
+        "Closed",
+        "2015-07-20T14:27:51.000-0300",
+        "2015-08-27T20:31:27.000-0300",
+        "ORA-12899: value too large for column \"BATCHMODULE_BR_TES\".\"OPERATION_PROCESS\".\"DESCRIPTION\" ",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2003",
+        "Closed",
+        "2015-07-20T16:54:49.000-0300",
+        "2015-08-27T21:25:35.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o gera Commission Recovery",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.132",
+            "2.10.1.0.133"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2006",
+        "Closed",
+        "2015-07-21T14:04:18.000-0300",
+        "2015-08-27T20:54:59.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2007",
+        "Closed",
+        "2015-07-21T14:05:17.000-0300",
+        "2015-08-27T21:02:49.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2008",
+        "Closed",
+        "2015-07-21T14:05:59.000-0300",
+        "2015-08-27T21:05:04.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-2009",
+        "Closed",
+        "2015-07-21T14:08:03.000-0300",
+        "2015-08-27T21:12:39.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2010",
+        "Closed",
+        "2015-07-21T14:08:58.000-0300",
+        "2015-08-27T21:01:18.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.128"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2015",
+        "Closed",
+        "2015-07-22T01:26:29.000-0300",
+        "2015-08-27T20:55:01.000-0300",
+        "MX >> PROD >> Jenkins executando job antes de finalizar o processo anterior",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2018",
+        "Closed",
+        "2015-07-22T20:25:29.000-0300",
+        "2015-08-27T21:05:22.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.129"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-2019",
+        "Closed",
+        "2015-07-22T20:27:54.000-0300",
+        "2015-08-27T21:01:15.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.129"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2020",
+        "Closed",
+        "2015-07-22T20:31:25.000-0300",
+        "2015-08-27T20:54:41.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.129"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2021",
+        "Closed",
+        "2015-07-22T20:36:14.000-0300",
+        "2015-08-27T20:32:38.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.129"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2027",
+        "Closed",
+        "2015-07-23T17:56:30.000-0300",
+        "2015-08-28T11:55:00.000-0300",
+        "Problema para exibi\u00e7\u00e3o das Propriedades Numericas do Produto",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2028",
+        "Closed",
+        "2015-07-23T20:42:22.000-0300",
+        "2015-08-27T21:02:31.000-0300",
+        " rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2029",
+        "Closed",
+        "2015-07-23T20:42:35.000-0300",
+        "2015-08-27T21:05:06.000-0300",
+        " rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-2030",
+        "Closed",
+        "2015-07-23T20:42:47.000-0300",
+        "2015-08-27T20:32:25.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2031",
+        "Closed",
+        "2015-07-23T20:42:59.000-0300",
+        "2015-08-27T21:13:11.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2032",
+        "Closed",
+        "2015-07-23T20:43:11.000-0300",
+        "2015-08-27T21:01:08.000-0300",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.130"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2036",
+        "Cancelled",
+        "2015-07-27T10:06:27.000-0300",
+        "2015-08-27T20:32:35.000-0300",
+        "LAPSIS-1810 - BR>>DEV>> Ao realizar a busca por status Pendente no File Processing(Batch Module), sistema esta demorando para atualizar os dados na tela",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.133"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2048",
+        "Closed",
+        "2015-07-29T16:40:38.000-0300",
+        "2015-08-27T20:32:23.000-0300",
+        "LAPSIS-1921 - [MISSAO] M\u00e9xico >> PRE-PROD >> Erro lan\u00e7ado em c\u00f3digo n\u00e3o \u00e9 exibido na tela",
+        "M\u00e9xico",
+        "Unresolved",
+        [
+            "2.10.1.0.133"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2050",
+        "Cancelled",
+        "2015-07-29T17:00:28.000-0300",
+        "2015-08-27T21:25:41.000-0300",
+        "LAPSIS-1798 - BR>>DEV>> Ao cancelar uma ap\u00f3lice durante a vig\u00eancia o sistema est\u00e1 restiuindo o valor total do premio (Pr\u00f3-Rata)",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.133"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2061",
+        "Closed",
+        "2015-07-30T13:41:44.000-0300",
+        "2015-08-27T20:33:09.000-0300",
+        "Arquivos com STCP Code n\u00e3o configurado geram exception e ficam na pasta INBOX",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.133"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2068",
+        "Closed",
+        "2015-07-31T16:40:05.000-0300",
+        "2015-11-03T16:23:01.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.136",
+            "2.10.1.0.138",
+            "2.10.1.0.160",
+            "2.10.1.0.165",
+            "2.10.1.0.175"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2069",
+        "Closed",
+        "2015-07-31T16:40:33.000-0300",
+        "2015-11-03T16:22:36.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.188",
+            "2.10.1.0.190"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2070",
+        "Closed",
+        "2015-07-31T16:42:14.000-0300",
+        "2015-11-03T16:23:11.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.136",
+            "2.10.1.0.138",
+            "2.10.1.0.141",
+            "2.10.1.0.160",
+            "2.10.1.0.161",
+            "2.10.1.0.165",
+            "2.10.1.0.168",
+            "2.10.1.0.169",
+            "2.10.1.0.175",
+            "2.10.1.0.176",
+            "2.10.1.0.187",
+            "2.10.1.0.188",
+            "2.10.1.0.190"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-2083",
+        "Closed",
+        "2015-08-03T17:07:05.000-0300",
+        "2015-08-27T20:31:25.000-0300",
+        "Erro durante gera\u00e7\u00e3o do arquivo de retorno autom\u00e1tico",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.138",
+            "2.10.1.0.144",
+            "2.10.1.0.145",
+            "2.10.1.0.147"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2090",
+        "Closed",
+        "2015-08-04T18:05:37.000-0300",
+        "2015-08-27T20:32:51.000-0300",
+        "erro ao tentar excluir um entryfile",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.136"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2093",
+        "Closed",
+        "2015-08-05T11:15:38.000-0300",
+        "2015-09-28T20:27:24.000-0300",
+        "LAPSIS-2037 - BR>>DEV>> Ao processar um arquivo com mais de uma linha e com o terceiro que nao existe na base o sistema cria um terceiro por linha com o mesmo Third Party Number",
+        "Brazil",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.141"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2097",
+        "Closed",
+        "2015-08-05T16:26:59.000-0300",
+        "2015-09-10T17:15:13.000-0300",
+        "Sistema n\u00e3o esta gerando Premium Refund e Comission Recovery",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.155"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2102",
+        "Closed",
+        "2015-08-06T11:16:11.000-0300",
+        "2015-08-28T13:38:02.000-0300",
+        "PE>>DEV>> O sistema n\u00e3o preenche o campo AUDIDATE na tabela POLICYDCO e PIMS_REQUEST para produto MIGRADO",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.145",
+            "2.10.1.0.146"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2105",
+        "Closed",
+        "2015-08-06T14:50:33.000-0300",
+        "2015-08-28T10:48:33.000-0300",
+        "PE>>DEV>> Sistema bloqueia a inser\u00e7\u00e3o da ap\u00f3lice exibindo a mensagem: Policy was not created ([MB003] The after sales operation effective date must be between the policy start and the policy end date)",
+        "Peru",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2111",
+        "Closed",
+        "2015-08-07T17:05:23.000-0300",
+        "2015-11-03T16:23:24.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.138",
+            "2.10.1.0.142",
+            "2.10.1.0.154",
+            "2.10.1.0.190"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2117",
+        "Closed",
+        "2015-08-10T12:16:38.000-0300",
+        "2015-08-27T20:33:32.000-0300",
+        "Exporta\u00e7\u00e3o EXCEL  n\u00e3o est\u00e1 gerando arquivos.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.140",
+            "2.10.1.0.141"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2118",
+        "Closed",
+        "2015-08-10T12:23:03.000-0300",
+        "2015-08-27T20:31:25.000-0300",
+        "Erro durante gera\u00e7\u00e3o \"Arquivo Retorno\"",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.141"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2119",
+        "Closed",
+        "2015-08-10T14:23:10.000-0300",
+        "2015-10-20T11:51:45.000-0200",
+        "MX >> PROD >> FaturaCompra.xml",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.143"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2129",
+        "Closed",
+        "2015-08-11T14:55:44.000-0300",
+        "2015-08-28T11:53:02.000-0300",
+        "BatchModule - O campo \"Sales Channel Description\" n\u00e3o est\u00e1 mapeado",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.152",
+            "2.10.1.0.153"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2131",
+        "Closed",
+        "2015-08-11T15:08:31.000-0300",
+        "2015-09-11T08:24:42.000-0300",
+        "PE - PMS - O sistema n\u00e3o exibe as subcoberturas cadastradas no ODM",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.159"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2133",
+        "Closed",
+        "2015-08-11T17:33:42.000-0300",
+        "2015-08-28T17:51:04.000-0300",
+        "PE >> DEV / TEST >> Busca de ap\u00f3lices por produto",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.149"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2140",
+        "Closed",
+        "2015-08-12T22:17:35.000-0300",
+        "2015-09-08T15:16:59.000-0300",
+        "MX >> DEV >> Erro processamento de carga upload",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.157"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2141",
+        "Closed",
+        "2015-08-12T22:24:40.000-0300",
+        "2015-08-27T20:56:23.000-0300",
+        "PE >> TEST >> Erro ao enviar Job de Cobran\u00e7a",
+        "Peru",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0.149"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2153",
+        "Closed",
+        "2015-08-14T15:28:17.000-0300",
+        "2015-11-03T11:42:10.000-0200",
+        "MX >> PROD >> Campo pims_exctn_dt n\u00e3o \u00e9 preenchido",
+        "Colombia",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.150"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2165",
+        "Closed",
+        "2015-08-17T15:01:34.000-0300",
+        "2015-08-27T20:50:27.000-0300",
+        "LAPSIS-2160  - BR>> PRD>> Ao enviar no arquivo uma concessionaria que n\u00e3o existe na base o sistema est\u00e1 criando o terceiro e permitindo o processamento do arquivo;",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.148"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2167",
+        "Closed",
+        "2015-08-18T10:25:17.000-0300",
+        "2015-10-12T12:54:59.000-0300",
+        "BRASIL >> PROD >> MISS\u00c3O 2.10.1.0",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.171",
+            "2.10.1.0.172"
+        ],
+        "Impediment",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2168",
+        "Closed",
+        "2015-08-18T10:52:22.000-0300",
+        "2015-10-12T12:54:04.000-0300",
+        "Evidenciar arquivos movidos a pasta erro ao filtro error.",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.151"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2169",
+        "Closed",
+        "2015-08-18T11:21:07.000-0300",
+        "2015-08-27T20:33:15.000-0300",
+        "BR>>PRD>> Ao alterar o Entry file no ambiente de PROD o sistema apresenta erro \u201cAn unexpected error occurred\u201d, n\u00e3o possibilitando a modifica\u00e7\u00e3o do mesmo.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.149"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2170",
+        "Closed",
+        "2015-08-18T12:05:00.000-0300",
+        "2015-10-12T12:52:30.000-0300",
+        "BR>>PRD>> Ao processar um arquivo no ambiente de PROD o sistema joga o mesmo na pasta ERROR n\u00e3o apresentando mensagem de erro.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.149"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2176",
+        "Closed",
+        "2015-08-19T11:31:28.000-0300",
+        "2015-10-12T12:49:42.000-0300",
+        "BR>>PRD>> Ao alterar o Entry file no ambiente de PROD o sistema apresenta erro \u201cAn unexpected error occurred\u201d, n\u00e3o possibilitando a modifica\u00e7\u00e3o do mesmo.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.149",
+            "2.10.1.0.150"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2179",
+        "Closed",
+        "2015-08-19T16:30:21.000-0300",
+        "2015-09-01T09:13:36.000-0300",
+        "Sistema atribui valor de franquia a reserva pendente de um benef\u00edcio. ",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.164"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2182",
+        "Closed",
+        "2015-08-19T18:32:15.000-0300",
+        "2015-08-27T20:31:51.000-0300",
+        "arquivo retorno apresenta erro de formula quando a configura\u00e7\u00e3o vai ser salva.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.152"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2183",
+        "Closed",
+        "2015-08-20T00:43:33.000-0300",
+        "2015-08-27T20:55:27.000-0300",
+        "Ajuste na Query que gera as entradas cont\u00e1beis",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.151"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2184",
+        "Closed",
+        "2015-08-20T12:06:55.000-0300",
+        "2015-09-02T10:44:27.000-0300",
+        "PE>>DEV>> O sistema rejeito o arquivo e exibe NullPointerException: ",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.152"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2189",
+        "Closed",
+        "2015-08-21T17:20:57.000-0300",
+        "2015-09-17T15:34:00.000-0300",
+        "PE - LAPSIS-2102 :DEV>> O sistema exibe as datas erradas na consulta de movimentos de ap\u00f3lice",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.161",
+            "2.10.1.0.167"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2197",
+        "Delivered",
+        "2015-08-24T14:51:28.000-0300",
+        "2015-10-22T14:07:17.000-0200",
+        "MX - LAASDK-2475 : DEV >> Relat\u00f3rio Reporte de Reserva",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2199",
+        "Closed",
+        "2015-08-24T19:20:20.000-0300",
+        "2015-09-08T16:03:37.000-0300",
+        "PE - LAASDK-2376 : PROD >> Ajuste de Dados PIMS_REQUEST",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.156",
+            "2.10.1.0.163"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2200",
+        "Delivered",
+        "2015-08-24T19:49:48.000-0300",
+        "2015-11-13T10:40:30.000-0200",
+        "Uso de fontes no ReportWeb",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.156"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2204",
+        "Closed",
+        "2015-08-25T18:59:50.000-0300",
+        "2015-08-27T20:50:38.000-0300",
+        "Ao gerar comiss\u00e3o para mais de um Seller, Broker e etc... O sistema gravava as entradas cont\u00e1beis duplicadas.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.156",
+            "2.10.1.0.157"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2205",
+        "Closed",
+        "2015-08-25T19:04:50.000-0300",
+        "2015-09-28T19:20:27.000-0300",
+        "PE >> PROD >> Melhoria de Performance CollectorInvoice",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.157"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2206",
+        "Closed",
+        "2015-08-26T09:32:51.000-0300",
+        "2015-08-27T20:55:31.000-0300",
+        "Melhoria na obten\u00e7\u00e3o das fatura que dever\u00e3o ser liquidadas pelo Job de Liquida\u00e7\u00e3o Autom\u00e1tica.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.157",
+            "2.10.1.0.158"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2209",
+        "Closed",
+        "2015-08-26T11:43:24.000-0300",
+        "2015-08-27T20:31:43.000-0300",
+        "PE>>DEV>> N\u00e3o \u00e9 poss\u00edvel realizar a subscri\u00e7\u00e3o via BatchModule",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.159"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2210",
+        "Closed",
+        "2015-08-26T11:54:33.000-0300",
+        "2015-08-27T20:32:02.000-0300",
+        "PE>>DEV>> A exibi\u00e7\u00e3o dos arquivos de todos os status est\u00e1 invertida",
+        "Peru",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.159"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2211",
+        "Closed",
+        "2015-08-26T13:10:05.000-0300",
+        "2015-08-27T20:33:01.000-0300",
+        "PaymentMode vazio quando registro \u00e9 enviado ao PMS",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.159"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2213",
+        "Delivered",
+        "2015-08-26T17:53:30.000-0300",
+        "2015-09-17T20:23:51.000-0300",
+        "MX - LAASDK-2540 : Sistema apresenta erros diferentes ao processar carga de arquivos em Prod e Dev/Test",
+        "M\u00e9xico",
+        "Corre\u00e7\u00e3o no Plugin",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "Upload"
+    ],
+    [
+        "LAPSIS-2218",
+        "Closed",
+        "2015-08-27T14:38:39.000-0300",
+        "2015-11-03T16:22:48.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.161",
+            "2.10.1.0.176"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2223",
+        "Closed",
+        "2015-08-27T17:40:46.000-0300",
+        "2015-08-31T09:42:09.000-0300",
+        "Foi criada uma classe no GLI para processar as transa\u00e7\u00f5es do Brasil na gera\u00e7\u00e3o do arquivo de Fatura Compra",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.162"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2227",
+        "Closed",
+        "2015-08-28T11:53:01.000-0300",
+        "2015-09-05T15:00:16.000-0300",
+        "PE - DEV>> Sistema n\u00e3o salva informa\u00e7\u00e3o preenchida no campo 'Sales Channel Description'",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.165"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2228",
+        "Closed",
+        "2015-08-28T15:06:11.000-0300",
+        "2015-09-10T14:56:18.000-0300",
+        "PE - DEV>> Sistema grava Plano errado na ap\u00f3lice, exibindo coberturas dos 2 planos na aba 'Coverage'",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2235",
+        "Closed",
+        "2015-08-31T12:26:28.000-0300",
+        "2015-09-08T10:49:02.000-0300",
+        "PE - LAASDK-2376",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2236",
+        "Closed",
+        "2015-08-31T12:38:34.000-0300",
+        "2015-09-08T14:09:27.000-0300",
+        "PE - LAASDK-2338",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2237",
+        "Closed",
+        "2015-08-31T12:41:28.000-0300",
+        "2015-09-08T14:09:44.000-0300",
+        "PE - LAASDK-2334 ",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2238",
+        "Closed",
+        "2015-08-31T12:44:18.000-0300",
+        "2015-09-11T09:26:51.000-0300",
+        "PE - LAASDK-2206",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.168"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2239",
+        "Closed",
+        "2015-08-31T12:49:39.000-0300",
+        "2015-09-10T17:56:52.000-0300",
+        "PE - LAASDK-2102 ",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2240",
+        "Closed",
+        "2015-08-31T12:52:15.000-0300",
+        "2015-09-02T18:26:30.000-0300",
+        "PE - LAASDK-2032",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2241",
+        "Closed",
+        "2015-08-31T12:58:48.000-0300",
+        "2015-09-02T18:26:28.000-0300",
+        "MX - LAASDK-2523",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2242",
+        "Closed",
+        "2015-08-31T13:01:18.000-0300",
+        "2015-09-08T15:57:21.000-0300",
+        "MX - LAASDK-2481",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2243",
+        "Retesting",
+        "2015-08-31T13:03:45.000-0300",
+        "2015-08-31T17:06:10.000-0300",
+        "MX - LAASDK-2476 ",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2244",
+        "Retesting",
+        "2015-08-31T13:05:45.000-0300",
+        "2015-08-31T17:06:09.000-0300",
+        "MX - LAASDK-2475",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2245",
+        "Closed",
+        "2015-08-31T13:07:49.000-0300",
+        "2015-10-23T11:41:42.000-0200",
+        "MX - LAASDK-2453",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "Impediment",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2246",
+        "Closed",
+        "2015-08-31T13:09:49.000-0300",
+        "2015-09-08T14:09:31.000-0300",
+        "MX - LAASDK-2325 ",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2247",
+        "Delivered",
+        "2015-08-31T13:11:49.000-0300",
+        "2015-09-11T18:33:26.000-0300",
+        "MX - LAASDK-1037",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.170"
+        ],
+        "Impediment",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2248",
+        "Closed",
+        "2015-08-31T13:37:30.000-0300",
+        "2015-09-08T18:03:21.000-0300",
+        "MX - LAASDK-2513",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2250",
+        "Closed",
+        "2015-08-31T13:46:07.000-0300",
+        "2015-10-23T11:41:02.000-0200",
+        "MX - LAASDK-2370 - Erro ao processar um arquivo para o produto TOYOTA",
+        "M\u00e9xico",
+        "Corre\u00e7\u00e3o no Plugin",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2253",
+        "Closed",
+        "2015-08-31T18:54:45.000-0300",
+        "2015-09-05T16:16:48.000-0300",
+        "PE - LAASDK-2015 Consulta de polizas diferente en Prod y Test",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.167"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2256",
+        "Cancelled",
+        "2015-09-02T15:14:11.000-0300",
+        "2015-10-06T12:29:11.000-0300",
+        "CO - LAASDK-2013 : fechas de inicio de las p\u00f3lizas est\u00e1n apareciendo con horas 02:00:00",
+        "Colombia",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2257",
+        "Closed",
+        "2015-09-02T15:45:36.000-0300",
+        "2015-10-20T18:27:38.000-0200",
+        "BR - LAASDK-2429 : Sinistro: erros configura\u00e7\u00e3o",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2258",
+        "Closed",
+        "2015-09-02T15:59:06.000-0300",
+        "2015-10-20T18:21:37.000-0200",
+        "BR - LAASDK-2079 : Tempo demasiado para leitura de arquivo no BM",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2259",
+        "Closed",
+        "2015-09-02T16:11:55.000-0300",
+        "2015-09-08T14:09:36.000-0300",
+        "BR - LAPSIS-2252 :PRD>> Arredondamento de Valores no xml de contabilidade",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2260",
+        "Closed",
+        "2015-09-02T16:15:18.000-0300",
+        "2015-09-08T14:09:38.000-0300",
+        "BR - LAPSIS-2132 :DEV>> Ao gerar uma fatura com GroupPremiumBilleds de diferentes GroupPolicys o sistema duplica o valor contabil.",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2261",
+        "Closed",
+        "2015-09-02T16:22:32.000-0300",
+        "2015-09-08T14:09:41.000-0300",
+        "BR - LAPSIS-2136 :DEV>> Ao gerar uma fatura com GroupPremiumReimbursement o sistema gera movimentos cont\u00e1beis negativo.",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2262",
+        "Closed",
+        "2015-09-02T16:34:52.000-0300",
+        "2015-10-12T12:45:26.000-0300",
+        "BR - LAASDK-2132 : ODM - Decision Center est\u00e1 travando, lento e n\u00e3o permite editar algumas regras",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2263",
+        "Closed",
+        "2015-09-02T22:37:33.000-0300",
+        "2015-10-21T11:27:28.000-0200",
+        "BR >> TEST >> GLI Problemas ao efetuar o recebimento de pagamento",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.166"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2271",
+        "Closed",
+        "2015-09-08T16:34:45.000-0300",
+        "2015-10-23T08:57:36.000-0200",
+        "BR>>DEV>> Ao subir um arquivo na pasta inbox o sistema sobe arquivo no servidor e apresenta NULL ",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2272",
+        "Closed",
+        "2015-09-08T20:04:07.000-0300",
+        "2015-10-12T12:44:42.000-0300",
+        "LAASDK-2626- CONFIGURA\u00c7\u00c3O DA CAR\u00caNCIA DE 30 DIAS - RESTITUI\u00c7\u00c3O EM AMBIENTE DE TEST",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2273",
+        "Closed",
+        "2015-09-08T20:42:38.000-0300",
+        "2015-10-06T16:07:31.000-0300",
+        "PE >> DEV >> Sistema apresenta duplicidade de coberturas.",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.169"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2274",
+        "Closed",
+        "2015-09-09T09:35:58.000-0300",
+        "2015-10-12T12:42:38.000-0300",
+        "BR>>PR>> Ao realizar busca no m\u00f3dulo sinistro o sistema apresenta (C\u00f3digo: CDF001)",
+        "Brazil",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.168"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2275",
+        "Closed",
+        "2015-09-09T10:31:09.000-0300",
+        "2015-10-06T16:07:31.000-0300",
+        "PE >> DEV >> BM Falha ao carregar novos certificados",
+        "Peru",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2276",
+        "Closed",
+        "2015-09-09T11:08:13.000-0300",
+        "2015-10-20T18:18:12.000-0200",
+        "BR>>PRD>> Solicito apoio para cria\u00e7\u00e3o do script para ajustar o valor PremiumRefund",
+        "Brazil",
+        "Corre\u00e7\u00e3o em banco de dados",
+        [
+            "2.10.1.0.167",
+            "2.10.1.0.168"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2277",
+        "Closed",
+        "2015-09-09T12:18:26.000-0300",
+        "2015-10-06T16:07:31.000-0300",
+        "PE >> DEV >> Job de Impagos",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.168",
+            "2.10.1.0.170"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2278",
+        "Closed",
+        "2015-09-09T15:27:52.000-0300",
+        "2015-10-13T15:17:38.000-0300",
+        "BR>>TEST>> Ao alterar o response file no ambiente de TEST o sistema apresenta somente errors was found in response file configuration, please check",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.168"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2280",
+        "Closed",
+        "2015-09-10T12:58:42.000-0300",
+        "2015-10-23T11:40:30.000-0200",
+        "BR >> PROD >> Erro ao processar o recebimento de pagamento",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.169"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2282",
+        "Closed",
+        "2015-09-10T14:19:08.000-0300",
+        "2015-09-10T18:13:18.000-0300",
+        "PIMS BOM - moditica\u00e7\u00e3o de tipo de dados.",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.169"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2287",
+        "Closed",
+        "2015-09-11T15:49:34.000-0300",
+        "2015-10-08T23:47:11.000-0300",
+        "Atualiza\u00e7\u00e3o de endere\u00e7o deve seguir mesmo padr\u00e3o do offline",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.119",
+            "2.10.1.0.170"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2288",
+        "Closed",
+        "2015-09-11T16:49:13.000-0300",
+        "2015-10-20T18:17:36.000-0200",
+        "BR>>DEV>> Ao carregar arquivos no Batch quando existe o vinculo de um plugin o sistema apresenta para alguns casos a seguinte exception Package br.com.bnpparibas.cardif.pims.batch.module.plugin.processor already defined",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.173"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2289",
+        "Closed",
+        "2015-09-14T15:29:26.000-0300",
+        "2015-09-18T16:51:27.000-0300",
+        "BR>>PROD>> Ao extrair os pagamentos no GLI o sistema gera o PIMS_DSB_ORD_NO iguais para pagamentos distintos",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.171"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2290",
+        "Closed",
+        "2015-09-14T16:00:02.000-0300",
+        "2015-09-14T17:41:11.000-0300",
+        "PE >> TEST >> Tela de movimentos de ap\u00f3lices n\u00e3o apresenta resultados. ",
+        "Peru",
+        "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2291",
+        "Closed",
+        "2015-09-14T16:08:54.000-0300",
+        "2015-10-12T12:37:14.000-0300",
+        "BR>>PROD>> Ao realizar o recebimento de pagamentos pelo SUN o sistema apresenta erro  Error on PaymentBOImpl.findEffectivePayments(): [org.springframework.remoting.RemoteAccessException] Could not deserialize result from HTTP invoker remote service ",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2293",
+        "Closed",
+        "2015-09-14T21:35:15.000-0300",
+        "2015-10-13T14:05:31.000-0300",
+        "PE >> DEV >> JOB DE ENVIO VIGENTES",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2294",
+        "Closed",
+        "2015-09-15T11:59:30.000-0300",
+        "2015-09-18T16:49:36.000-0300",
+        "BR>>PROD>> Ao processar arquivo no ambiente de produ\u00e7\u00e3o o sistema n\u00e3o termina o processamento",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2295",
+        "Closed",
+        "2015-09-15T13:39:56.000-0300",
+        "2015-10-09T17:26:59.000-0300",
+        "Cria\u00e7\u00e3o de fun\u00e7\u00e3o \"Reajuste de premio anual pela infla\u00e7\u00e3o\"",
+        "Colombia",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0",
+            "2.10.0.0.35"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2297",
+        "Closed",
+        "2015-09-15T19:09:31.000-0300",
+        "2015-09-18T16:48:01.000-0300",
+        "BR>>DEV>> Ao carregar o Batch Module, o sistema apresenta a mensagem \"An unexpected error occurred\u201d.",
+        "LAM",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2298",
+        "Closed",
+        "2015-09-15T22:04:56.000-0300",
+        "2015-09-18T23:20:22.000-0300",
+        "PE >> DEV >> Sistema n\u00e3o esta exibindo informa\u00e7\u00f5es na tela \"visualizar movimentos\"",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.172"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2299",
+        "Closed",
+        "2015-09-16T00:13:07.000-0300",
+        "2015-10-06T16:07:31.000-0300",
+        "PE >> TEST >> Detalhes do Evento",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.172"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2303",
+        "Closed",
+        "2015-09-16T15:29:36.000-0300",
+        "2015-10-12T12:35:18.000-0300",
+        "BR>> Ao realizar a chamada do servi\u00e7o findPolicyDetailsResponse \u00e9 apresentado o erro  org.apache.cxf.binding.soap.SoapFault: Fault occurred while processing",
+        "Brazil",
+        "Instabilidade Sist\u00eamica",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "WebSocio"
+    ],
+    [
+        "LAPSIS-2307",
+        "Closed",
+        "2015-09-17T15:35:47.000-0300",
+        "2015-09-30T10:05:05.000-0300",
+        "Ap\u00f3lice com m\u00faltiplos segurados",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.172"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2308",
+        "Closed",
+        "2015-09-17T17:58:42.000-0300",
+        "2015-10-28T19:01:14.000-0200",
+        "BR>>PROD>> Ao gerar uma restitui\u00e7\u00e3o, onde o PremiumRefund est\u00e1 com o status \u201cAutorizado\u201d ao extrair os pagamentos no GLI o sistema n\u00e3o est\u00e1 tomando em considera\u00e7\u00e3o este open Item.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.172"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2313",
+        "Closed",
+        "2015-09-18T16:04:04.000-0300",
+        "2015-09-30T10:05:24.000-0300",
+        "Performance",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.175"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2316",
+        "Retesting",
+        "2015-09-21T17:25:44.000-0300",
+        "2015-11-13T16:01:25.000-0200",
+        "BR >> PROD >> Claim insere dados incorretos na PIMS_DSBRSMNT",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.198"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2317",
+        "Closed",
+        "2015-09-21T18:35:29.000-0300",
+        "2015-11-06T11:10:59.000-0200",
+        "BR >> PROD >> Tipo de Movimento Peridiocidade Lan\u00e7amento Cont\u00e1bil Mensal n\u00e3o \u00e9 gerado",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2318",
+        "Closed",
+        "2015-09-21T19:23:56.000-0300",
+        "2015-10-23T11:39:36.000-0200",
+        "PE >> DEV >> Arredondamento ODM",
+        "Peru",
+        "Configura\u00e7\u00e3o de Funda\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2321",
+        "Closed",
+        "2015-09-22T14:23:53.000-0300",
+        "2015-10-08T23:44:03.000-0300",
+        "MX >> DEV >> BatchModule - Cria\u00e7\u00e3o de linha de neg\u00f3cio Personal Loan",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.172",
+            "2.10.1.0.173",
+            "2.10.1.0.175"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2322",
+        "Closed",
+        "2015-09-22T18:16:44.000-0300",
+        "2015-09-30T10:05:35.000-0300",
+        "Tramantento de mensagem \"throw JavaScriptException\"",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.173"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2323",
+        "Closed",
+        "2015-09-23T10:47:55.000-0300",
+        "2015-09-24T01:58:11.000-0300",
+        "Ap\u00f3lice com m\u00faltiplos segurados",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.174"
+        ],
+        "None",
+        "Policy Tool"
+    ],
+    [
+        "LAPSIS-2334",
+        "Closed",
+        "2015-09-25T09:06:20.000-0300",
+        "2015-10-16T10:21:59.000-0300",
+        "MX >> DEV >> Apoio com o evento de Renova\u00e7\u00e3o",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2341",
+        "Closed",
+        "2015-09-29T10:33:31.000-0300",
+        "2015-10-07T09:56:15.000-0300",
+        "MX >> TEST >> Import/Export - Sistema apresenta erro no momento da importa\u00e7\u00e3o e n\u00e3o importa as configura\u00e7\u00f5es das tabelas dinamicas",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.179"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2349",
+        "Closed",
+        "2015-09-30T14:10:41.000-0300",
+        "2015-10-07T09:56:35.000-0300",
+        "MX >> TEST >> Import/Export - Sistema n\u00e3o exporta as configura\u00e7\u00f5es das tabelas dinamicas",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.179"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2351",
+        "Closed",
+        "2015-09-30T18:12:36.000-0300",
+        "2015-10-05T10:18:52.000-0300",
+        "BR >> PROD >> Manuten\u00e7\u00e3o da aplica\u00e7\u00e3o ReportWeb feita pelo pa\u00eds",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.178"
+        ],
+        "None",
+        "ReportWeb"
+    ],
+    [
+        "LAPSIS-2360",
+        "Closed",
+        "2015-10-01T19:05:16.000-0300",
+        "2015-10-21T11:26:03.000-0200",
+        "MX >> DEV >> Tabela STPO_GROUPINVOICEOPENITEM",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.181"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2362",
+        "Closed",
+        "2015-10-02T17:38:17.000-0300",
+        "2015-11-03T10:17:31.000-0200",
+        "BR>>DEV>> Solicito apoio no processo de gera\u00e7\u00e3o de contabilidade no n\u00edvel individual",
+        "Brazil",
+        "Regra pendente de defini\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2365",
+        "Closed",
+        "2015-10-02T18:37:14.000-0300",
+        "2015-10-08T23:37:49.000-0300",
+        "MX >> DEV >> Valida\u00e7\u00e3o em campos do terceiro",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.182"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2367",
+        "Closed",
+        "2015-10-05T11:11:40.000-0300",
+        "2015-10-21T11:25:28.000-0200",
+        "MX >> DEV >> Erro ao processar pagamentos",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.183"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2371",
+        "Closed",
+        "2015-10-05T12:00:54.000-0300",
+        "2015-10-08T23:48:31.000-0300",
+        "Mapeamento RiskUnity \"Robbery\"",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.184"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2378",
+        "Closed",
+        "2015-10-05T19:34:53.000-0300",
+        "2015-10-21T11:24:43.000-0200",
+        "MX >> DEV >> N\u00e3o \u00e9 apresentado o nome do Produto na busca da fatura",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.184"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2379",
+        "Closed",
+        "2015-10-06T10:31:03.000-0300",
+        "2015-10-13T19:41:31.000-0300",
+        "java.security.PrivilegedActionException",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.184"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2384",
+        "Closed",
+        "2015-10-07T17:48:40.000-0300",
+        "2015-10-13T19:41:44.000-0300",
+        "Arquivos ficando em Load durante carga dos arquivos ...",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.185"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2385",
+        "Closed",
+        "2015-10-07T19:38:48.000-0300",
+        "2015-10-08T23:37:01.000-0300",
+        "MX >> TEST >> Manuten\u00e7\u00e3o de terceiros - PAYMENT MODE;",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.186"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2386",
+        "Closed",
+        "2015-10-08T04:45:39.000-0300",
+        "2015-10-21T11:24:05.000-0200",
+        "MX >> DEV >> Cria\u00e7\u00e3o de provis\u00e3o de comiss\u00e3o",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.7",
+            "2.10.1.0.186"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2392",
+        "Closed",
+        "2015-10-08T17:59:21.000-0300",
+        "2015-10-13T19:42:04.000-0300",
+        "File Processing - Erro na data de busca",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.187",
+            "2.10.1.0.188"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2394",
+        "Closed",
+        "2015-10-08T18:46:46.000-0300",
+        "2015-10-21T11:23:40.000-0200",
+        "MX >> DEV >> Erro ao emitir ap\u00f3lice usando Subscriber",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.187",
+            "2.10.1.0.188"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2396",
+        "Closed",
+        "2015-10-08T22:09:45.000-0300",
+        "2015-10-13T19:41:53.000-0300",
+        "Failed to initialize the reader",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.187",
+            "2.10.1.0.188"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2397",
+        "Closed",
+        "2015-10-08T23:24:27.000-0300",
+        "2015-10-21T11:23:07.000-0200",
+        "MX >> TEST >> Erro na gera\u00e7\u00e3o de fatura",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.189"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2398",
+        "Closed",
+        "2015-10-09T01:45:56.000-0300",
+        "2015-10-13T14:02:09.000-0300",
+        "MX >> TEST >> BATCHMODULE",
+        "M\u00e9xico",
+        "Instabilidade Sist\u00eamica",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2399",
+        "Closed",
+        "2015-10-09T02:07:52.000-0300",
+        "2015-10-21T11:22:36.000-0200",
+        "MX >> DEV >> NullPointer ao processar arquivo no Upload",
+        "M\u00e9xico",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Upload"
+    ],
+    [
+        "LAPSIS-2400",
+        "Closed",
+        "2015-10-09T11:30:18.000-0300",
+        "2015-11-04T17:22:27.000-0200",
+        "BR >> PROD >> Ap\u00f3s retorno do SUN, sistema n\u00e3o atualiza o status do OpenItem de sinsitro.",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2402",
+        "Closed",
+        "2015-10-09T14:33:33.000-0300",
+        "2015-11-16T11:02:17.000-0200",
+        "BR >> PROD >> Retorno de pagamento de comiss\u00f5es via GLI com valores errados.",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2419",
+        "Closed",
+        "2015-10-13T10:39:31.000-0300",
+        "2015-10-22T17:12:06.000-0200",
+        "BR >> DEV >> Sistema n\u00e3o permite a cria\u00e7\u00e3o do sinistro",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.191"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2420",
+        "Closed",
+        "2015-10-13T11:19:50.000-0300",
+        "2015-11-03T16:22:55.000-0200",
+        "rebuild",
+        "LAM",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0",
+            "2.10.1.0.190"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2421",
+        "Closed",
+        "2015-10-13T12:08:06.000-0300",
+        "2015-10-21T11:17:29.000-0200",
+        "MX >> PROD >> Job Orchestractor",
+        "M\u00e9xico",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2427",
+        "Retesting",
+        "2015-10-13T18:09:40.000-0300",
+        "2015-10-28T15:59:10.000-0200",
+        "MX >> DEV >> BatchModule [Model Mapping] - Campos n\u00e3o est\u00e3o salvando informa\u00e7\u00e3o mapeada",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.192"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2439",
+        "Closed",
+        "2015-10-14T15:05:41.000-0300",
+        "2015-10-26T11:47:29.000-0200",
+        "BR >> PROD >> O sistema n\u00e3o exibe endere\u00e7o dos tipos Home e Office na consulta feita pelo WebLife",
+        "Brazil",
+        "Regra pendente de defini\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2440",
+        "Closed",
+        "2015-10-14T15:16:33.000-0300",
+        "2015-10-26T11:47:48.000-0200",
+        "BR >> PROD >> Os endere\u00e7os do tipo Home e Office devem ser alterados.",
+        "Brazil",
+        "Regra pendente de defini\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2443",
+        "Retesting",
+        "2015-10-14T20:38:35.000-0300",
+        "2015-10-28T15:59:04.000-0200",
+        "MX >> TEST>> BatchModule >> Sistema n\u00e3o realiza inser\u00e7\u00e3o de ap\u00f3lice com Insured MORAL PERSON.",
+        "M\u00e9xico",
+        "Configura\u00e7\u00e3o de Produtos",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2466",
+        "Closed",
+        "2015-10-19T11:52:34.000-0200",
+        "2015-10-22T17:13:44.000-0200",
+        "BR >> PROD >> BatchModule exibe ambiente errado em Produ\u00e7\u00e3o",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2467",
+        "Closed",
+        "2015-10-19T13:28:00.000-0200",
+        "2015-11-09T17:06:53.000-0200",
+        "BR >> DEV >> N\u00e3o \u00e9 poss\u00edvel gerar fatura quando filtra-se por Parceiro e Nome do Produto",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "3.0.0.0.29",
+            "2.10.1.0.198"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2471",
+        "Closed",
+        "2015-10-20T17:13:15.000-0200",
+        "2015-10-22T16:19:14.000-0200",
+        "BR >> DEV >> N\u00e3o \u00e9 poss\u00edvel gerar fatura quando filtra-se por Parceiro e Nome do Produto",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.193"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2476",
+        "Closed",
+        "2015-10-21T12:54:18.000-0200",
+        "2015-10-29T09:57:14.000-0200",
+        "BRASIL >> PRODU\u00c7\u00c3O >> Dados do certificado n\u00e3o s\u00e3o exibidos ao realizar a consulta via WebServices",
+        "Brazil",
+        "Regra pendente de defini\u00e7\u00e3o",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2482",
+        "Closed",
+        "2015-10-21T16:30:12.000-0200",
+        "2015-10-29T16:04:18.000-0200",
+        "Incoerencia entre Tela de busca de terceiros e servi\u00e7o findThirdPartyDetailsById",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2484",
+        "Retesting",
+        "2015-10-21T18:53:17.000-0200",
+        "2015-10-28T15:58:45.000-0200",
+        "PE > DEV >> BatchModule - Erro ao carregar arquivo utilizando Converter.",
+        "Peru",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.194"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2485",
+        "Closed",
+        "2015-10-21T21:12:48.000-0200",
+        "2015-11-13T10:43:41.000-0200",
+        "PERU >> PRODU\u00c7\u00c3O >> N\u00c3O ATUALIZA O CAMPO ELECTRONICADDRESSNAMEINPUT NA TABELA CCOPTPTHIRDPARTY",
+        "Peru",
+        "Corre\u00e7\u00e3o no Plugin",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Upload"
+    ],
+    [
+        "LAPSIS-2495",
+        "Retesting",
+        "2015-10-23T16:33:25.000-0200",
+        "2015-10-28T15:58:31.000-0200",
+        "MX >> TEST ORA-00942: table or view does not exist",
+        "M\u00e9xico",
+        "Configura\u00e7\u00e3o de Ambiente",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2519",
+        "Closed",
+        "2015-10-26T23:51:40.000-0200",
+        "2015-11-10T18:48:49.000-0200",
+        "BR >> PROD >> Arquivo de Retorno",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0.197"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2522",
+        "Closed",
+        "2015-10-27T11:32:22.000-0200",
+        "2015-11-10T17:37:27.000-0200",
+        "BR >> PROD >> O sistema replica o openitem GroupPremiumBilled",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.195"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2529",
+        "Closed",
+        "2015-10-27T16:44:52.000-0200",
+        "2015-11-09T17:02:19.000-0200",
+        "MX >> PROD >> Ao realizar consulta por produto na tela de \"Consulta Fatura Grupo\", o sistema traz como resultado faturas de todos os produtos relacionados ao Parceiro.",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.195"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2532",
+        "Closed",
+        "2015-10-27T19:57:47.000-0200",
+        "2015-11-03T16:24:25.000-0200",
+        "Problemas para exporta\u00e7\u00e3o de configura\u00e7\u00f5es",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.195"
+        ],
+        "None",
+        "Batch Module"
+    ],
+    [
+        "LAPSIS-2562",
+        "Closed",
+        "2015-10-29T17:19:49.000-0200",
+        "2015-11-09T09:11:22.000-0200",
+        "Solicito an\u00e1lise na classe do GLI para validar a configura\u00e7\u00e3o da property seg.Partner",
+        "Brazil",
+        "N\u00e3o \u00e9 um erro",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "GLI"
+    ],
+    [
+        "LAPSIS-2594",
+        "Delivered",
+        "2015-11-03T16:22:05.000-0200",
+        "2015-11-03T16:32:01.000-0200",
+        "MX >> PROD >> Blocks INPUT/VALUE",
+        "M\u00e9xico",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.196"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2626",
+        "Closed",
+        "2015-11-05T17:31:28.000-0200",
+        "2015-11-13T16:00:18.000-0200",
+        "Ao gerar movimentos cont\u00e1beis para o cancelamento de fatura o sistema gera as informa\u00e7\u00f5es zeradas.",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Produtos",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2638",
+        "Closed",
+        "2015-11-06T16:14:11.000-0200",
+        "2015-11-12T09:41:43.000-0200",
+        "Ao realizar o cancelamento o sistema n\u00e3o gera movimento cont\u00e1bil para os pr\u00eamios individuais / comiss\u00f5es o sistema n\u00e3o gerou movimenta\u00e7\u00e3o.",
+        "Brazil",
+        "Configura\u00e7\u00e3o de Produtos",
+        [
+            "2.10.1.0"
+        ],
+        "None",
+        "ODM"
+    ],
+    [
+        "LAPSIS-2647",
+        "Retesting",
+        "2015-11-09T18:29:35.000-0200",
+        "2015-11-13T15:59:52.000-0200",
+        "BR>> Valida\u00e7\u00e3o se as fun\u00e7\u00f5es no ticket foram implementadas no ODM",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.199"
+        ],
+        "None",
+        "PIMS Insurance"
+    ],
+    [
+        "LAPSIS-2663",
+        "Delivered",
+        "2015-11-11T18:13:37.000-0200",
+        "2015-11-16T20:12:39.000-0200",
+        "Associar a cobertura AccidentalDamageProtection ao Claim",
+        "LAM",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.200"
+        ],
+        "None",
+        "Claim"
+    ],
+    [
+        "LAPSIS-2682",
+        "Delivered",
+        "2015-11-13T15:26:02.000-0200",
+        "2015-11-16T20:13:44.000-0200",
+        "Ao processar um arquivo que chega com o formato ASCII, UTF-8, ANSI ao processar o arquivo o sistema gera o arquivo de retorno com o encod UTF-8 \u2013BOM gerando v\u00e1rios erros nos caracteres que possuem acentua\u00e7\u00e3o.",
+        "Brazil",
+        "Defeito em c\u00f3digo",
+        [
+            "2.10.1.0.200"
+        ],
+        "Impediment",
+        "Batch Module"
+    ]
+]
