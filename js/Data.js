@@ -4,11 +4,11 @@
  * and open the template in the editor.
  */
 // $Id: Data.js 100 2014-08-13 13:13:02Z leaope $
-function Data() {
-    var data = [];
 
-    this.header = function() {
-        return [
+Data = function() {
+
+    // private
+    var header  = [
          'key',
          'status',
          'created',
@@ -20,107 +20,179 @@ function Data() {
          'impediment',
          'application'
         ];
-    }
 
-    this._idx = function(key) {
-        return this.header().indexOf(key);
-    }
+    var data = [];
 
-    this.code = function(data = null) {
-        var d = [];
+    var getIndex = function(key) {
 
-        if( ! data ) {
-            data = this.data;
+        if(data.length) {
+            var idx = data[0].indexOf(key);
+
+            if(idx<0) {
+                throw "can't found key:[" + key + "]";
+            }
+            return idx;
         }
+        throw "data is empty";
+    };
 
-        var idx = this._idx('solution');
+    var countFields = function(parameters) {
+        var field = parameters.field;
+        var values = parameters.values;
+        var exclude = parameters.exclude;
+        var dt = (parameters.data) ? parameters.data:data;
 
-        for (var i=0; i<data.length; i++) {
-            var line = [];
+        var lines = {};
 
-            for(var x=0; x<data[i].length; x++) {
-                line.push(data[i][x]);
-                if((i>0) && (x == idx)) {
-                    if((data[i][x] != 'Unresolved')  &&
-                    (data[i][x] != 'Defeito em código')) {
-                        line[x] = 'Outros';
+        var idx = dt[0].indexOf(field);
+
+        for(var i=1; i<dt.length; i++) {
+
+            var key = dt[i][idx];
+
+            if(values) {
+                for(var x=0; x<values.length; x++) {
+                    if(values[x] == key) {
+                        if(!exclude) {
+                            lines[key] = (lines[key] == null ) ? 1 : lines[key]+1;
+                        }
+                    } else if(exclude) {
+                        lines[key] = (lines[key] == null ) ? 1 : lines[key]+1;
                     }
                 }
+            } else {
+                lines[key] = (lines[key] == null ) ? 1 : lines[key]+1;
             }
-            d.push(line);
         }
-        return d;
-    }
 
-    this.apps = function(data = null) {
+        var d = [];
+        var bool = true;
+        for(var k in lines) {
+            if(bool) {
+                d.push([field, "Total"]);
+                bool = false;
+            }
+            d.push([k,lines[k]]);
+        }
+
+        return (d.length > 1) ? d : [];
+    };
+
+    var getIssueByFields = function(parameters) {
+        var values = parameters.values;
+        var field = parameters.field;
         var d = [];
 
-        if( ! data ) {
-            data = this.data;
-        }
+        try {
+            var idx = getIndex(field);
 
-        var idx = this._idx('solution');
+            for (var i = 0; data && i < data.length; i++) {
 
-        for (var i=0; i<data.length; i++) {
-            var line = [];
+                var bool_push = false;
 
-            for(var x=0; x<data[i].length; x++) {
-                if((i>0) && (x == idx)) {
-                    if (data[i][x] != 'Defeito em código') {
-                        break;
+                if (i == 0) {
+                    bool_push = true;
+                } else {
+                    for (var x = 0; x < values.length; x++) {
+                        if (data[i][idx] == values[x]) {
+                            bool_push = true;
+                        }
                     }
                 }
-                line.push(data[i][x]);
-            }
 
-            if(line.length == data[0].length) {
-                d.push(line);
+                if (bool_push) {
+                    d.push(data[i]);
+                }
             }
+            return d;
+        } catch(e) {
+            console.log((new Date()) + ' Exception:' + e);
         }
-        return d;
-    }
+    };
 
-    this.others = function(data = null) {
+    // public
+    this.assigne = function(d) {
+        if( d[0][0] != header[0] ) {
+            data = [].concat([header], d);
+        } else {
+            data = d;
+        }
+    };
+
+    this.getHeader = function() {
+        return header;
+    };
+
+    this.getClosedIssues = function() {
+        return getIssueByFields({values: ['Closed', 'Cancelled'], field: 'status'});
+    };
+
+    this.getOthersIssues = function() {
         var d = [];
 
-        if( ! data ) {
-            data = this.data;
-        }
-
-        var idx = this._idx('solution');
+        var idx =getIndex('solution');
 
         for (var i=0; i<data.length; i++) {
-            var line = [];
-
-            for(var x=0; x<data[i].length; x++) {
-                if((i>0) && (x == idx)) {
-                    if((data[i][x] == 'Unresolved') ||
-                       (data[i][x] == 'Defeito em código') ){
-                        break;
-                    }
-                }
-                line.push(data[i][x]);
-            }
-
-            if(line.length == data[0].length) {
-                d.push(line);
+            if(i==0 || data[i][idx] != 'Defeito em código') {
+                d.push(data[i]);
             }
         }
         return d;
-    }
+    };
 
-    this.stock = function(data = null) {
+    this.getCodeIssues = function() {
 
         var d = [];
 
-        if( ! data ) {
-            data = this.data;
+        var idx =getIndex('solution');
+
+        for (var i=0; i<data.length; i++) {
+            if (i == 0 || data[i][idx] == 'Defeito em código') {
+                d.push(data[i]);
+            }
+        }
+        return d;
+    };
+
+    this.inAccept = function() {
+        var d=[];
+
+        d.push(['status']);
+
+        var idx =getIndex('status');
+        for (var i=0;i<data.length;i++) {
+            if(data[i][idx].match('To Do|Reopened|Doing|In Progress|Done')) d.push(['service']);
+            else if(data[i][idx].match('Pending Info|Pending Information|Pending Support Area')) d.push(['pending']);
+            else if(data[i][idx].match('Delivered|Retesting')) d.push(['acceptance']);
+            else if(data[i][idx].match('Closed|Cancelled')) d.push(['closed']);
         }
 
-        //d[0] = ['date','closed','stock'];
+        return countFields({
+            field: 'status',
+            values: ['service', 'pending', 'acceptance', 'closed'],
+            exclude: false,
+            data: d
+        });
+    };
 
-        var idx_status = this._idx('status');
-        var idx_created = this._idx('created');
+    this.byCodeOthers = function() {
+        var d = [];
+
+        var idx =getIndex('solution');
+        d.push('solution');
+
+        for (var i=0;i<data.length;i++) {
+            if     (data[i][idx].match('Defeito em código')) d.push(['Alteração em Código']);
+            else   d.push(['Outros']);
+        }
+        return countFields({field: 'solution', values: null, exclude: false, data:d});
+    };
+
+    this.closedAndOpened = function() {
+        var d = [];
+
+        var idx_status = getIndex('status');
+        var idx_created = getIndex('created');
 
         for(var i=1; i<data.length; i++) {
             var x = 0;
@@ -154,52 +226,9 @@ function Data() {
         out.addColumn('number', 'closed');
         out.addRows(d);
         return out;
-    }
+    };
 
-    this.openPerDay = function(data = null) {
-
-
-        var d = [];
-
-        if( ! data ) {
-            data = this.data;
-        }
-
-        var idx_created = this._idx('created');
-
-        for(var i=1; i<data.length; i++) {
-            var x = 0;
-
-            var dt =new Date(Date.parse(data[i][idx_created].substring(0,10) + 'T00:00:00.000'));
-
-            for(x=0; x<d.length; x++) {
-                if(d[x][0].getTime() == dt.getTime()) {
-                    break;
-                }
-            }
-
-            var ct_open = 0;
-            if(d[x]) {
-                ct_open = d[x][1];
-            }
-
-            ct_open++;
-
-            d[x] = [dt, ct_open];
-        }
-
-        var out = new google.visualization.DataTable();
-        out.addColumn('date', 'date');
-        out.addColumn('number', 'open');
-        out.addRows(d);
-        return out;
-    }
-
-    this.stockdown = function(data = null) {
-
-        if( ! data ) {
-            data = this.data;
-        }
+    this.stockDown = function() {
 
         var d = [];
         var ct_closed = 0;
@@ -207,8 +236,8 @@ function Data() {
         var totalo = data.length;
         var totalc = 0;
 
-        var idx_status = this._idx('status');
-        var idx_created = this._idx('created');
+        var idx_status = getIndex('status');
+        var idx_created = getIndex('created');
 
         for(var i=1; i<data.length; i++) {
             var x = 0;
@@ -241,19 +270,92 @@ function Data() {
         out.addColumn('number', 'opened');
         out.addRows(d);
         return out;
-    }
+    };
 
-    this.country = function(data = null) {
+    this.byApplication = function() {
+        return countFields(
+            {field: 'application', values: null, exclude: false}
+        );
+    };
+
+    this.bySolution = function() {
+        return countFields(
+            {field: 'solution', values: null, exclude: false}
+        );
+    };
+
+    this.byVersion = function() {
+        var d = [];
+
+        var idx =getIndex('versions');
+        for (var i=0;i<data.length;i++) {
+            if(i==0) {
+                d.push([data[i][idx]]);
+            } else {
+                if(data[i][idx].length) {
+                    d.push([data[i][idx].slice(-1)[0].replace(/([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+).+/, "$1")]);
+                } else {
+                    d.push(['None']);
+                }
+            }
+        }
+
+        return countFields(
+            {field: 'versions', values: null, exclude: false, data: d}
+        );
+    };
+
+    this.byVersionA = function() {
+        return this.byVersion();
+    };
+
+    this.byVersionO = function() {
+        return this.byVersion();
+    };
+
+    this.inService = function() {
+        return countFields(
+                    {
+                        field: 'status', values: ['To Do',
+                        'Reopened',
+                        'Doing',
+                        'In Progress',
+                        'Done'], exclude: false
+                    });
+    };
+
+    this.inAcceptance = function() {
+        return countFields(
+                    {
+                        field: 'status', values: ['Delivered',
+                        'Retesting'], exclude: false
+                    });
+    };
+
+    this.inPending = function() {
+        return countFields(
+                    {
+                        field: 'status', values: ['Pending Info',
+                        'Pending Information',
+                        'Pending Support Area'], exclude: false
+                    });
+    };
+
+    this.inClosed = function() {
+        return countFields(
+                    {
+                        field: 'status', values: ['Closed',
+                        'Cancelled'], exclude: false
+                    });
+    };
+
+    this.byCountry = function() {
 
         var d = [];
 
-        if( ! data ) {
-            data = this.data;
-        }
-
         d[0] = ['country','tickets'];
 
-        idx = this._idx('country');
+        var idx =getIndex('country');
 
         for(var i=1; i<data.length; i++) {
             var x = 0;
@@ -272,56 +374,5 @@ function Data() {
             d[x] = [country,ct+1];
         }
         return d;
-    }
-
-    this.count = function(fields, data = null) {
-
-        if( ! data ) {
-            data = this.data;
-        }
-
-        var idx = [];
-
-        var dt = [];
-        var fdt = [];
-        var cdt = [];
-
-        for (var i = 0; i < fields.length; i++) {
-            pos = data[0].indexOf(fields[i]);
-
-            if (pos >= 0) {
-                idx.push(pos);
-            }
-        }
-
-        for (var i = 0; i < data.length; i++) {
-            var k = [];
-            for (x = 0; x < idx.length; x++) {
-                k.push(data[i][idx[x]]);
-            }
-
-            if (i === 0) {
-                k.push('Total');
-                dt.push(k);
-            } else {
-                pos = fdt.indexOf(k.join(','));
-
-                if (pos < 0) {
-                    fdt.push(k.join(','));
-                    cdt.push(1);
-                } else {
-                    cdt[pos]++;
-                }
-            }
-        }
-
-        for (var i = 0; i < fdt.length; i++) {
-            k = fdt[i].split(',');
-            k.push(cdt[i]);
-
-            dt.push(k);
-        }
-
-        return dt;
-    }
-}
+    };
+};

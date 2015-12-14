@@ -2,7 +2,10 @@
 <html lang="en" ng-app="report">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title><!-- CSS -->
+    <title>Report</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/static/images/statistic-28x28.png"/>
+    <!-- CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -11,10 +14,6 @@
 
     <!-- Data Table-->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css">
-
-    <!-- Datepicker -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.min.css">
 
     <!-- JS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -27,66 +26,105 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
 
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://www.google.com/uds/modules/gviz/gviz-api.js"></script>
     <script src="http://bouil.github.io/angular-google-chart/ng-google-chart.js"></script>
+
+    <script type="text/javascript" src="js/Data.js"></script>
 
 </head>
 <body>
-<div ng-controller="ListController">
-    <div ></div>
+<h3>:: Report</h3>
+<div ng-controller="Controller">
     <table class='table table-striped table-bordered table-condensed' cellspacing='0' width='80%'>
-        <thead>
-        <tr><td colspan="9">
-            <table class='table table-striped table-bordered table-condensed' cellspacing='0' width='100%'>
-              <tr><th colspan="9"><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"></th></tr>
-                <tr><th>:: applications</th><th>:: code x others</th><th>:: others</th></tr>
-                <tr>
-                    <td google-chart chart="chart_apps"
-                    style="border:1px inset black;padding:0;width:400px"/>
-                    <td google-chart chart="chart_stock"
-                        style="border:1px inset black;padding:0;width:400px"/>
-                    <td google-chart chart="chart_others"
-                        style="border:1px inset black;padding:0;width:400px"/>
-                </tr>
-                <tr><th colspan="3">:: tickets/day</th></tr>
-                <tr>
-                    <td colspan="3" google-chart chart="chart_stockdown"
-                        style="border:1px inset black;padding:0;width:400px"/>
-                </tr>
-                <tr>
-                    <td colspan="3" google-chart chart="chart_opened"
-                        style="border:1px inset black;padding:0;width:400px"/>
-                </tr>
-                <tr>
-                    <td colspan="3" google-chart chart="chart_stock_close"
-                        style="border:1px inset black;padding:0;width:400px"/>
-                </tr>
-                <tr><th colspan="3">:: country</th></tr>
-                <tr>
-                    <td colspan="3" google-chart chart="chart_country"
-                        style="border:1px inset black;padding:0;width:600px;height:440px;"/>
-                </tr>
+        <thred>
+            <tr>
+                <th><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/>
+            </tr>
+        </thred>
+        <tr><td>
+            <table cellspacing='0' width='100%'>
+                <thead>
+                    <tr><th colspan="3">:: service</th> </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" google-chart chart="inAccept" title="resume"
+                            style="border:1px inset black;padding:0;width:400px" ></td>
+                        <td google-chart chart="inService" title="service"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                        <td google-chart chart="inAcceptance" title="acceptance"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                    </tr>
+                    <tr>
+                        <td google-chart chart="inPending" title="pending"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                        <td google-chart chart="inClosed" title="closed"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="3">:: closed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" google-chart chart="byCodeOthers" title="Alteração em Código x Outros"
+                            style="border:1px inset black;padding:0;width:400px" ></td>
+                        <td google-chart chart="byApplication" title="Alteração em Código"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                        <td google-chart chart="bySolution" title="Outros"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                    </tr>
+                    <tr>
+                        <td google-chart chart="byVersionA" title="Alteração em Código x Versão"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                        <td google-chart chart="byVersionO" title="Outros x Versão"
+                            style="border:1px inset black;padding:0;width:400px"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" google-chart chart="stockDown"
+                            style="border:1px inset black;padding:0;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" google-chart chart="closedAndOpened"
+                            style="border:1px inset black;padding:0;"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" google-chart chart="byCountry"
+                            style="border:1px inset black;padding:0;width:600px;height:440px;"></td>
+                    </tr>
+                </tbody>
             </table>
         </td></tr>
         <tr>
-            <th  ng-repeat="c in header" ng-if="c != 'summary'">{{c}}
-        </tr>
-        </thead>
-        <tbody>
-        <tr ng-repeat="f in list | filter: txtFilter as filtered">
-            <td ng-repeat="c in f"  ng-if="$index != 4">
-                <div ng-switch on="$index">
-                    <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
-                    <div ng-switch-when="7"><div ng-repeat="v in c">{{v}}</div></div>
-                    <div ng-switch-default >{{c}}</div>
-                </div>
+            <td>
+                <table class='table table-striped table-bordered table-condensed'  cellspacing='0' width='100%'>
+                    <thead>
+                        <tr>
+                            <th  ng-repeat="c in header track by $index" ng-if="c != 'summary'">{{c}}
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="f in list | filter: txtFilter as filtered" pog="{{refresh($index + 1)}}">
+                        <td ng-repeat="c in f track by $index"  ng-if="$index != 4">
+                            <div ng-switch on="$index">
+                                <div ng-switch-when="0"><a href="http://tms-jira.cardifnet.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
+                                <div ng-switch-when="7"><div ng-repeat="v in c track by $index">{{v}}</div></div>
+                                <div ng-switch-default >{{c}}</div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </td>
         </tr>
-        </tbody>
     </table>
-    <script>
-    </script>
 </div>
-<script type="text/javascript" src="./js/Data.js"></script>
-<script type="text/javascript" src="./js/app-report.js"></script>
+
+<script type="text/javascript" src="js/EasyChart.js"></script>
+<script type="text/javascript" src="js/Controller.js"></script>
+
 </body>
 </html>
