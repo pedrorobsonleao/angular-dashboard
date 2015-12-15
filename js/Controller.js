@@ -1,12 +1,17 @@
 
 var app =  angular.module('report', ['googlechart']);
 
-app.controller('Controller', function($scope, $http, $location) {
+app.controller('Controller', function($scope, $http, $location, googleChartApiPromise) {
 
     $scope.issues = new Data();
     $scope.codeIssues = new Data();
     $scope.closedIssues = new Data();
     $scope.otherIssues = new Data();
+
+    // $scope.action = $location.absUrl().replace(/.+\//,"");
+    // $scope.jql =  $location.absUrl().replace(/.+?jql=(.+)[#&].+/,"$1");
+
+    $scope.txtFilter = '';
 
     $scope.chart = new EasyChart({
         'options': {
@@ -51,29 +56,46 @@ app.controller('Controller', function($scope, $http, $location) {
     $scope.list = [];
     $scope.header = $scope.issues.getHeader();
 
-    $scope.update = function() {
-
+    $scope.retrieve = function(callback) {
         var uri = './data.json';
 
         $http.get(uri).success(function(data) {
 
             $scope.list = data;
-            $scope.chart.draw($scope);
+            callback();
         });
     };
 
-    $scope.update();
-
     $scope.refresh = function(index) {
-        if ($scope.filtered.length == index ) {
+
+            var sourceData;
+            if($scope.txtFilter && $scope.txtFilter.length>0 && $scope.filtered) {
+                sourceData = $scope.filtered;
+            } else {
+                sourceData = $scope.list;
+            }
+
+
             var data = $scope.filtered;
 
-            $scope.issues.assigne(data);
+            $scope.issues.assigne(sourceData);
             $scope.closedIssues.assigne($scope.issues.getClosedIssues());
             $scope.codeIssues.assigne($scope.closedIssues.getCodeIssues());
             $scope.otherIssues.assigne($scope.closedIssues.getOthersIssues());
 
             $scope.chart.update($scope);
-        }
     };
+
+    googleChartApiPromise.then(function () {
+            $scope.retrieve(function() {
+                $scope.chart.draw($scope);
+                $scope.refresh();
+
+                $scope.$watch('txtFilter', function(newValue, oldValue){
+                    if(newValue !== oldValue) {
+                        $scope.refresh()
+                    }
+                });
+            });
+    });
 });
