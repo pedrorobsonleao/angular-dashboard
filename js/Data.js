@@ -114,6 +114,50 @@ Data = function() {
         }
     };
 
+    var openClosedByDay = function() {
+        
+        var closed = {};
+        var opened = {};
+        var dates = [];
+        
+        var idx_status = getIndex('status');
+        var idx_created = getIndex('created');
+
+        for(var i=1; i<data.length; i++) {
+            var status = (data[i][idx_status]==='Closed'||data[i][idx_status]==='Cancelled')?'Closed':'Opened';
+
+            var dt =new Date(Date.parse(data[i][idx_created].substring(0,10) + 'T00:00:00.000'));
+
+            if(status == 'Opened') {
+                opened[dt.getTime()] = (opened[dt.getTime()])?opened[dt.getTime()]+1:1;
+            } else if(status == 'Closed'){
+                closed[dt.getTime()] = (closed[dt.getTime()])?closed[dt.getTime()]+1:1;
+            }
+            
+            if(dates.indexOf(dt.getTime()) < 0) {
+                dates.push(dt.getTime());
+            }
+        }
+
+        dates = dates.sort();
+        var d = [];
+        
+        var totopen = data.length;
+        var totclose = 0;
+        
+        for(var x=0; x<dates.length; x++) {
+            var time = dates[x];
+            
+            c = (closed[time])?closed[time]:0;
+            o = (opened[time])?opened[time]:0;
+            
+            totopen -= c;
+            totclose += o;
+            d.push([new Date(time), o, c]);
+        }
+        return d;
+    };
+    
     // public
     this.assigne = function(d) {
         if( d[0][0] != header[0] ) {
@@ -193,81 +237,30 @@ Data = function() {
     };
 
     this.closedAndOpened = function() {
-        var d = [];
-
-        var idx_status = getIndex('status');
-        var idx_created = getIndex('created');
-
-        for(var i=1; i<data.length; i++) {
-            var x = 0;
-            var status = (data[i][idx_status]==='Closed'||data[i][idx_status]==='Cancelled')?'Closed':'Opened';
-
-            //var date = data[i][1].substring(0,10).replace(/-/g,"");
-            var dt =new Date(Date.parse(data[i][idx_created].substring(0,10) + 'T00:00:00.000'));
-
-            for(x=0; x<d.length; x++) {
-                if(d[x][0].getTime() == dt.getTime()) {
-                    break;
-                }
-            }
-
-            var ct_open = 0;
-            var ct_closed = 0;
-            if(d[x]) {
-                ct_open = d[x][1];
-                ct_closed = d[x][2];
-            }
-
-            if(status==="Opened") ct_open++;
-            if(status==="Closed") ct_closed++;
-
-            d[x] = [dt, ct_open, ct_closed];
-        }
-
+        
         var out = new google.visualization.DataTable();
         out.addColumn('date', 'date');
         out.addColumn('number', 'stock');
         out.addColumn('number', 'closed');
-        out.addRows(d);
+        out.addRows(openClosedByDay());
         return out;
     };
-
+    
     this.stockDown = function() {
 
         var d = [];
-        var ct_closed = 0;
-        var ct_open = 0;
-        var totalo = data.length;
-        var totalc = 0;
-
-        var idx_status = getIndex('status');
-        var idx_created = getIndex('created');
-
-        for(var i=1; i<data.length; i++) {
-            var x = 0;
-            var status = (data[i][idx_status]==='Closed'||data[i][idx_status]==='Cancelled')?'Closed':'Opened';
-
-            var dt =new Date(Date.parse(data[i][idx_created].substring(0,10) + 'T00:00:00.000'));
-
-            for(x=0; x<d.length; x++) {
-                if(d[x][0].getTime() == dt.getTime()) {
-                    break;
-                }
-            }
-
-            if ( ! d[x] ) {
-                ct_closed = 0;
-                ct_open = 0;
-            }
-
-            if(totalo>0) totalo -= ct_closed;
-            totalc += ct_open;
-            if(status=='Opened') ct_open++;
-            if(status=='Closed') ct_closed++;
-
-            d[x] = [dt, totalo, totalc];
+        
+        var totopen = 0;
+        var totclose = data.length;
+        
+        var dates = openClosedByDay();
+        
+        for(var x=0; x<dates.length; x++) {
+            totopen += dates[x][1];
+            totclose -= dates[x][2];
+            d.push([dates[x][0], totclose, totopen ]);
         }
-
+        
         var out = new google.visualization.DataTable();
         out.addColumn('date', 'date');
         out.addColumn('number', 'stock');
