@@ -75,7 +75,11 @@ Data = function() {
             d.push([k,lines[k]]);
         }
 
-        return (d.length > 1) ? d : [];
+	if(bool) {
+		d.push([field,"Total"]);
+		d.push(["", 0]);
+	}
+        return d;
     };
 
     var getIssueByFields = function(parameters) {
@@ -256,7 +260,7 @@ Data = function() {
                 ct_open = 0;
             }
 
-            totalo -= ct_closed;
+            if(totalo>0) totalo -= ct_closed;
             totalc += ct_open;
             if(status=='Opened') ct_open++;
             if(status=='Closed') ct_closed++;

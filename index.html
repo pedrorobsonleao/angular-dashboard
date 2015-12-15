@@ -110,7 +110,7 @@
                     <tr ng-repeat="f in list | filter: txtFilter as filtered" pog="{{refresh($index + 1)}}">
                         <td ng-repeat="c in f track by $index"  ng-if="$index != 4">
                             <div ng-switch on="$index">
-                                <div ng-switch-when="0"><a href="http://tms-jira.cardifnet.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
+                                <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
                                 <div ng-switch-when="7"><div ng-repeat="v in c track by $index">{{v}}</div></div>
                                 <div ng-switch-default >{{c}}</div>
                             </div>
