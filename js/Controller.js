@@ -24,6 +24,9 @@ app.controller('Controller', function($scope, $http, $location) {
             },
             'LineChart': {
                 curveType: 'function'
+            },
+            'AreaChart': {
+                vAxis: {minValue: 0}
             }
         },
         'parameters':{
@@ -39,8 +42,8 @@ app.controller('Controller', function($scope, $http, $location) {
                 ['byApplication', 'PieChart', $scope.codeIssues],
                 ['byVersionA', 'PieChart', $scope.codeIssues],
                 ['byVersionO', 'PieChart', $scope.otherIssues],
-                ['closedAndOpened','LineChart',$scope.issues],
-                ['stockDown','LineChart',$scope.issues]
+                ['closedAndOpened','AreaChart',$scope.issues],
+                ['stockDown','AreaChart',$scope.issues]
             ]
         }
     });

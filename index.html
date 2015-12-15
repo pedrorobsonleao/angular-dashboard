@@ -34,73 +34,82 @@
 
 </head>
 <body>
-<h3>:: Report</h3>
 <div ng-controller="Controller">
-    <table class='table table-striped table-bordered table-condensed' cellspacing='0' width='80%'>
-        <thred>
-            <tr>
-                <th><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/>
-            </tr>
-        </thred>
-        <tr><td>
-            <table cellspacing='0' width='100%'>
-                <thead>
-                    <tr><th colspan="3">:: service</th> </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="2" google-chart chart="inAccept" title="resume"
-                            style="border:1px inset black;padding:0;width:400px" ></td>
-                        <td google-chart chart="inService" title="service"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                        <td google-chart chart="inAcceptance" title="acceptance"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                    </tr>
-                    <tr>
-                        <td google-chart chart="inPending" title="pending"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                        <td google-chart chart="inClosed" title="closed"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                    </tr>
-                </tbody>
-                <thead>
-                    <tr>
-                        <th colspan="3">:: closed</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="2" google-chart chart="byCodeOthers" title="Alteração em Código x Outros"
-                            style="border:1px inset black;padding:0;width:400px" ></td>
-                        <td google-chart chart="byApplication" title="Alteração em Código"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                        <td google-chart chart="bySolution" title="Outros"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                    </tr>
-                    <tr>
-                        <td google-chart chart="byVersionA" title="Alteração em Código x Versão"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                        <td google-chart chart="byVersionO" title="Outros x Versão"
-                            style="border:1px inset black;padding:0;width:400px"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" google-chart chart="stockDown"
-                            style="border:1px inset black;padding:0;"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" google-chart chart="closedAndOpened"
-                            style="border:1px inset black;padding:0;"></td>
-                    </tr>
-                    <tr>
-                        <td colspan="3" google-chart chart="byCountry"
-                            style="border:1px inset black;padding:0;width:600px;height:440px;"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </td></tr>
-        <tr>
-            <td>
-                <table class='table table-striped table-bordered table-condensed'  cellspacing='0' width='100%'>
+<div class="container">
+    <div class="jumbotron">
+        <h1>:: report</h1>
+        <br>
+        <p><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/></p>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <h3>:: resume</h3>
+            <div google-chart chart="inAccept"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <h5>:: service</h5>
+            <div google-chart chart="inService"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: acceptance</h5>
+            <div google-chart chart="inAcceptance"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: pending</h5>
+            <div google-chart chart="inPending"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: closed</h5>
+            <div google-chart chart="inClosed"></div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-8">
+            <h3>:: alteração em código x outros</h3>
+            <div google-chart chart="byCodeOthers"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <h5>:: alteração em código</h5>
+            <div google-chart chart="byApplication"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: alteração em código x versão</h5>
+            <div google-chart chart="byVersionA"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: outros</h5>
+            <div google-chart chart="bySolution"></div>
+        </div>
+        <div class="col-sm-3">
+            <h5>:: outros x versão</h5>
+            <div google-chart chart="byVersionO"></div>
+        </div>
+    </div>
+    <div  class='row'>
+        <div class='col-xs-12'>
+            <h5>:: stockdown</h5>
+            <div google-chart chart="stockDown"></div>
+        </div>
+    </div>
+    <div  class='row'>
+        <div class='col-xs-12'>
+            <h5>:: closed x opened</h5>
+            <div google-chart chart="closedAndOpened"></div>
+        </div>
+    </div>
+    <div  class='row'>
+        <div class='col-xs-12'>
+            <h5>:: tickets by country</h5>
+            <div google-chart chart="byCountry"></div>
+        </div>
+    </div>
+    <div class="row">
+        <table class='table table-striped table-bordered table-condensed'  cellspacing='0' width='100%'>
                     <thead>
                         <tr>
                             <th  ng-repeat="c in header track by $index" ng-if="c != 'summary'">{{c}}
@@ -118,9 +127,8 @@
                     </tr>
                     </tbody>
                 </table>
-            </td>
-        </tr>
-    </table>
+    </div>
+</div>
 </div>
 
 <script type="text/javascript" src="js/EasyChart.js"></script>
