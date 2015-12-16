@@ -6,6 +6,7 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="images/statistic-28x28.png"/>
     <!-- CSS -->
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -26,8 +27,6 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
 
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript" src="http://www.google.com/uds/modules/gviz/gviz-api.js"></script>
     <script src="http://bouil.github.io/angular-google-chart/ng-google-chart.js"></script>
 </head>
 <body>
@@ -37,6 +36,10 @@
             <h1>:: report</h1>
             <br>
             <p><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/></p>
+
+            <div class="loading-spiner-holder" data-loading>
+                <div class="loading-spiner"><img src="images/ajax-loader.gif"/></div>
+            </div>
         </div>
         <div class="row">
             <div class="col-sm-8">
@@ -62,7 +65,6 @@
                 <div google-chart chart="inClosed"></div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-sm-8">
                 <h3>:: alteração em código x outros</h3>
@@ -87,41 +89,44 @@
                 <div google-chart chart="byVersionO"></div>
             </div>
         </div>
-        <div  class='row'>
+        <div class='row'>
             <div class='col-xs-12'>
                 <h5>:: stockdown</h5>
                 <div google-chart chart="stockDown"></div>
             </div>
         </div>
-        <div  class='row'>
+        <div class='row'>
             <div class='col-xs-12'>
                 <h5>:: closed x opened</h5>
                 <div google-chart chart="closedAndOpened"></div>
             </div>
         </div>
-        <div  class='row'>
+        <div class='row'>
             <div class='col-xs-12'>
                 <h5>:: tickets by country</h5>
                 <div google-chart chart="byCountry"></div>
             </div>
         </div>
         <div class="row">
-            <table class='table table-striped table-bordered table-condensed'  cellspacing='0' width='100%'>
+            <table class='table table-striped table-bordered table-condensed' cellspacing='0' width='100%'>
                 <thead>
-                    <tr>
-                        <th  ng-repeat="c in header track by $index" ng-if="c != 'summary'">{{c}}
-                    </tr>
+                <tr>
+                    <th ng-repeat="c in header track by $index" ng-if="c != 'summary'">{{c}}
+                </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="f in list | filter: txtFilter as filtered">
-                        <td ng-repeat="c in f track by $index"  ng-if="$index != 4">
-                            <div ng-switch on="$index">
-                                <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a></div>
-                                <div ng-switch-when="7"><div ng-repeat="v in c track by $index">{{v}}</div></div>
-                                <div ng-switch-default >{{c}}</div>
+                <tr ng-repeat="f in list | filter: txtFilter as filtered">
+                    <td ng-repeat="c in f track by $index" ng-if="$index != 4">
+                        <div ng-switch on="$index">
+                            <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a>
                             </div>
-                        </td>
-                    </tr>
+                            <div ng-switch-when="7">
+                                <div ng-repeat="v in c track by $index">{{v}}</div>
+                            </div>
+                            <div ng-switch-default>{{c}}</div>
+                        </div>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
