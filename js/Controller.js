@@ -17,8 +17,10 @@ app.directive('directive.loading', [])
                 {
                     if(v){
                         elm.show();
+                        scope.isVisible = false;
                     }else{
                         elm.hide();
+                        scope.isVisible = true;
                     }
                 });
             }
@@ -35,6 +37,8 @@ app.controller('Controller', function($scope, $http, $location, googleChartApiPr
 
     $scope.txtFilter = '';
 
+    $scope.isVisible = false;
+    
     $scope.chart = new EasyChart({
         'options': {
             'PieChart': {
