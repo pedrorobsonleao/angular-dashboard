@@ -33,7 +33,7 @@ Data = function() {
             }
             return idx;
         }
-        throw "data is empty";
+        throw 'data is empty';
     };
 
     var countFields = function(parameters) {
@@ -66,20 +66,19 @@ Data = function() {
         }
 
         var d = [];
-        var bool = true;
         for(var k in lines) {
-            if(bool) {
-                d.push([field, "Total"]);
-                bool = false;
-            }
             d.push([k,lines[k]]);
         }
 
-	if(bool) {
-		d.push([field,"Total"]);
-		d.push(["", 0]);
-	}
-        return d;
+	    if(d.length == 0) {
+		    d.push(['', 0]);
+	    }
+
+        var dx = []
+        dx.push([field, 'Total']);
+        dx = dx.concat(d.sort());
+
+        return dx;
     };
 
     var getIssueByFields = function(parameters) {
@@ -229,10 +228,11 @@ Data = function() {
         var idx =getIndex('solution');
         d.push('solution');
 
-        for (var i=0;i<data.length;i++) {
-            if     (data[i][idx].match('Defeito em código')) d.push(['Alteração em Código']);
-            else   d.push(['Outros']);
+        for (var i=1;i<data.length;i++) {
+            if     (data[i][idx].match('Defeito em código')) d.push(['changed code']);
+            else   d.push(['others']);
         }
+
         return countFields({field: 'solution', values: null, exclude: false, data:d});
     };
 
