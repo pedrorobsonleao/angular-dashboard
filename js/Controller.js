@@ -27,7 +27,8 @@ app.directive('directive.loading', [])
         };
 
     }]);
-    
+
+
 app.controller('Controller', function($scope, $http, $location, googleChartApiPromise) {
 
     $scope.issues = new Data();
@@ -35,22 +36,26 @@ app.controller('Controller', function($scope, $http, $location, googleChartApiPr
     $scope.closedIssues = new Data();
     $scope.otherIssues = new Data();
 
+
     $scope.txtFilter = '';
 
     $scope.isVisible = false;
-    
+
     $scope.chart = new EasyChart({
         'options': {
             'PieChart': {
                 title: 'Chart',
                 displayExactValues: true,
-                width: 400,
-                height: 200,
+                width: 325,
+                height: 150,
                 is3D: true,
+                pieSliceText: 'value',
                 chartArea: {left: 10, top: 10, bottom: 0, height: '100%'}
             },
             'GeoChart': {
                 is3D: true,
+                width: 800,
+                height: 600,
                 legend: {textStyle: {color: 'blue', fontSize: 16}}
             },
             'LineChart': {
@@ -58,6 +63,10 @@ app.controller('Controller', function($scope, $http, $location, googleChartApiPr
             },
             'AreaChart': {
                 vAxis: {minValue: 0}
+                /*
+                ,
+                seriesType: 'area',
+                series: {1: {type: 'bars'}} */
             }
         },
         'parameters':{
@@ -74,7 +83,9 @@ app.controller('Controller', function($scope, $http, $location, googleChartApiPr
                 ['byVersionA', 'PieChart', $scope.codeIssues],
                 ['byVersionO', 'PieChart', $scope.otherIssues],
                 ['closedAndOpened','AreaChart',$scope.issues],
-                ['stockDown','AreaChart',$scope.issues]
+                ['stockDown','AreaChart',$scope.issues],
+                ['createdResolved','LineChart',$scope.issues],
+                ['trend','LineChart',$scope.issues]
             ]
         }
     });
@@ -83,7 +94,7 @@ app.controller('Controller', function($scope, $http, $location, googleChartApiPr
     $scope.header = $scope.issues.getHeader();
 
     $scope.retrieve = function(callback) {
-        var uri = './data.json';
+        var uri = 'data.json';
 
         $http.get(uri).success(function(data) {
 

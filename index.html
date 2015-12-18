@@ -2,11 +2,10 @@
 <html lang="en" ng-app="report">
 <head>
     <meta charset="UTF-8">
-    <title>report</title>
+    <title>Title</title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="images/statistic-28x28.png"/>
     <!-- CSS -->
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -27,33 +26,54 @@
             src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
 
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="http://www.google.com/uds/modules/gviz/gviz-api.js"></script>
     <script src="http://bouil.github.io/angular-google-chart/ng-google-chart.js"></script>
-    
+
     <style media="print">
-.row {
-    display:block;
-}
-.jumbotron {
-    display:none;
-}
+        .row {
+        display:block;
+        }
+        .jumbotron {
+        display:none;
+        }
+        @media print {
+        .page-break {display: block; page-break-after: always;}
+        }
     </style>
 </head>
 <body>
+<script language="javascript">document.title="report maintenance";</script>
 <div ng-controller="Controller">
-    <div class="container">  <!-- style="display:none" ng-show="true" -->
+    <div class="container">
         <div class="jumbotron">
-            <h1>:: report</h1>
+            <h1>:: report maintenance</h1>
+            <h9>Fri Dec 18 11:28:04 2015</h9>
             <br>
             <p><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/></p>
         </div>
-
         <div class="loading-spiner-holder" data-loading>
-            <div class="loading-spiner"><img src="images/ajax-loader.gif"/></div>
+            <div class="loading-spiner"><img src="static/images/ajax-loader.gif"/></div>
         </div>
         <div ng-show="isVisible">
+            <div class='row'>
+                <div class='col-xs-12' align="center">
+                    <h3>TICKETS BY COUNTRY</h3>
+                    <div google-chart chart="byCountry"></div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <div class="form-group">
+                        <label for="comment">comment:</label>
+                        <textarea class="form-control" rows="1" id="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
             <div class="row">
-                <div class="col-sm-8">
-                    <h3>:: resume</h3>
+                <div class="col-xs-12" align="center">
+                    <h3>SUMMARY</h3>
                     <div google-chart chart="inAccept"></div>
                 </div>
             </div>
@@ -75,28 +95,51 @@
                     <div google-chart chart="inClosed"></div>
                 </div>
             </div>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <div class="form-group">
+                        <label for="comment">comment:</label>
+                        <textarea class="form-control" rows="1" id="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
             <div class="row">
-                <div class="col-sm-8">
-                    <h3>:: alteração em código x outros</h3>
+                <div class="col-xs-12" align="center">
+                    <h3>SOLUTION</h3>
                     <div google-chart chart="byCodeOthers"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-3">
-                    <h5>:: alteração em código</h5>
-                    <div google-chart chart="byApplication"></div>
-                </div>
-                <div class="col-sm-3">
-                    <h5>:: alteração em código x versão</h5>
-                    <div google-chart chart="byVersionA"></div>
-                </div>
-                <div class="col-sm-3">
-                    <h5>:: outros</h5>
+                    <h5>:: others x solution</h5>
                     <div google-chart chart="bySolution"></div>
                 </div>
                 <div class="col-sm-3">
-                    <h5>:: outros x versão</h5>
+                    <h5>:: others x version</h5>
                     <div google-chart chart="byVersionO"></div>
+                </div>
+                <div class="col-sm-3">
+                    <h5>:: changed code x module</h5>
+                    <div google-chart chart="byApplication"></div>
+                </div>
+                <div class="col-sm-3">
+                    <h5>:: changed code x version</h5>
+                    <div google-chart chart="byVersionA"></div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <div class="form-group">
+                        <label for="comment">comment:</label>
+                        <textarea class="form-control" rows="1" id="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="row">
+                <div class="col-xs-12" align="center">
+                    <h3>TICKETS</h3>
                 </div>
             </div>
             <div class='row'>
@@ -111,12 +154,23 @@
                     <div google-chart chart="closedAndOpened"></div>
                 </div>
             </div>
+            <div class="page-break"></div>
             <div class='row'>
                 <div class='col-xs-12'>
-                    <h5>:: tickets by country</h5>
-                    <div google-chart chart="byCountry"></div>
+                    <h5>:: created x resolved + trend</h5>
+                    <div google-chart chart="createdResolved"></div>
+                    <div google-chart chart="trend"></div>
                 </div>
             </div>
+            <div class='row'>
+                <div class='col-xs-12'>
+                    <div class="form-group">
+                        <label for="comment">comment:</label>
+                        <textarea class="form-control" rows="1" id="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="page-break"></div>
             <div class="row">
                 <table class='table table-striped table-bordered table-condensed' cellspacing='0' width='100%'>
                     <thead>
@@ -128,7 +182,7 @@
                     <tr ng-repeat="f in list | filter: txtFilter as filtered">
                         <td ng-repeat="c in f track by $index" ng-if="$index != 4">
                             <div ng-switch on="$index">
-                                <div ng-switch-when="0"><a href="http://tms-jira.net.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a>
+                                <div ng-switch-when="0"><a href="http://tms-jira.cardifnet.com/browse/{{c}}" title="{{f[4]}}">{{c}}</a>
                                 </div>
                                 <div ng-switch-when="7">
                                     <div ng-repeat="v in c track by $index">{{v}}</div>
@@ -143,7 +197,6 @@
         </div>
     </div>
 </div>
-
 <script type="text/javascript" src="js/Data.js"></script>
 <script type="text/javascript" src="js/EasyChart.js"></script>
 <script type="text/javascript" src="js/Controller.js"></script>

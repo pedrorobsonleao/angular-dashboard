@@ -5,7 +5,7 @@
  */
 // $Id: Data.js 100 2014-08-13 13:13:02Z leaope $
 
-Data = function() {
+function Data() {
 
     // private
     var header  = [
@@ -156,7 +156,25 @@ Data = function() {
         }
         return d;
     };
-    
+
+    var createdResolvedTrend = function() {
+        var d = [];
+        var created = 0;
+        var resolved = 0;
+        var trend = 0;
+
+        var dates = openClosedByDay();
+
+        for(var i=0; i<dates.length; i++) {
+            created += dates[i][1];
+            resolved += dates[i][2];
+
+            trend = (created - resolved + trend);
+            d.push([dates[i][0], created, resolved, trend]);
+        }
+        return d;
+    };
+
     // public
     this.assigne = function(d) {
         if( d[0][0] != header[0] ) {
@@ -254,17 +272,47 @@ Data = function() {
         var totclose = data.length;
         
         var dates = openClosedByDay();
-        
-        for(var x=0; x<dates.length; x++) {
+
+        for(var x=1; x<dates.length; x++) {
             totopen += dates[x][1];
             totclose -= dates[x][2];
-            d.push([dates[x][0], totclose, totopen ]);
+            d.push([dates[x][0], totclose ]);
         }
         
         var out = new google.visualization.DataTable();
         out.addColumn('date', 'date');
         out.addColumn('number', 'stock');
-        out.addColumn('number', 'opened');
+        out.addRows(d);
+        return out;
+    };
+
+    this.createdResolved = function() {
+        var d = [];
+        var dates = createdResolvedTrend();
+
+        for(var i=0; i<dates.length; i++) {
+            d.push([dates[i][0], dates[i][1], dates[i][2]]);
+        }
+
+        var out = new google.visualization.DataTable();
+        out.addColumn('date', 'date');
+        out.addColumn('number', 'created');
+        out.addColumn('number', 'resolved');
+        out.addRows(d);
+        return out;
+    };
+
+    this.trend = function() {
+        var d = [];
+        var dates = createdResolvedTrend();
+
+        for(var i=0; i<dates.length; i++) {
+            d.push([dates[i][0], dates[i][3]]);
+        }
+
+        var out = new google.visualization.DataTable();
+        out.addColumn('date', 'date');
+        out.addColumn('number', 'trend');
         out.addRows(d);
         return out;
     };
@@ -372,4 +420,4 @@ Data = function() {
         }
         return d;
     };
-};
+}
