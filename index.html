@@ -2,7 +2,7 @@
 <html lang="en" ng-app="report">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>report</title>
     <!-- favicon -->
     <link rel="shortcut icon" type="image/png" href="images/statistic-28x28.png"/>
     <!-- CSS -->
@@ -43,17 +43,15 @@
     </style>
 </head>
 <body>
-<script language="javascript">document.title="report maintenance";</script>
 <div ng-controller="Controller">
     <div class="container">
         <div class="jumbotron">
-            <h1>:: report maintenance</h1>
-            <h9>Fri Dec 18 11:28:04 2015</h9>
+            <h1>:: report</h1>
             <br>
             <p><input type="text" class="form-control" placeholder="Filter..." ng-model="txtFilter"/></p>
         </div>
         <div class="loading-spiner-holder" data-loading>
-            <div class="loading-spiner"><img src="static/images/ajax-loader.gif"/></div>
+            <div class="loading-spiner"><img src="images/ajax-loader.gif"/></div>
         </div>
         <div ng-show="isVisible">
             <div class='row'>
